@@ -34,17 +34,17 @@ export async function cargarBlockchain(): Promise<ComprobantesBlockchain[]> {
 
 export async function obtenerTodosLosNoticeUIDs(): Promise<string[]> {
   const registros = await cargarRegistros();
-  return registros.map((r) => r.notice_uid);
+  return registros.map((r) => r.id_contrato);
 }
 
-export async function buscarComprobante(noticeUID: string): Promise<ProofRecord | null> {
+export async function buscarComprobante(idContrato: string): Promise<ProofRecord | null> {
   const registros = await cargarRegistros();
   const blockchain = await cargarBlockchain();
   
-  const registro = registros.find((r) => r.notice_uid === noticeUID);
+  const registro = registros.find((r) => r.id_contrato === idContrato);
   if (!registro) return null;
   
-  const blockchainData = blockchain.find((b) => b.notice_uid === noticeUID);
+  const blockchainData = blockchain.find((b) => b.notice_uid === registro.notice_uid);
   if (!blockchainData) return null;
   
   const proof: ProofRecord = {

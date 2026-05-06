@@ -7,6 +7,7 @@ interface Props {
   blockNumber: number
   timestamp: string
   gas: number
+  contractAddress: string
 }
 
 function shortHash(hash: string): string {
@@ -14,99 +15,135 @@ function shortHash(hash: string): string {
   return `${hash.slice(0, 10)}...${hash.slice(-10)}`
 }
 
-export default function BlockchainInfoPanel({ txHash, blockNumber, timestamp, gas }: Props) {
+function formatDate(isoDate: string): string {
+  return new Intl.DateTimeFormat('es-CO', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  }).format(new Date(isoDate))
+}
+
+function diasDesde(isoDate: string): string {
+  const days = Math.floor((Date.now() - new Date(isoDate).getTime()) / 86_400_000)
+  if (days === 0) return 'hoy'
+  if (days === 1) return 'hace 1 día'
+  return `hace ${days} días`
+}
+
+function CopyButton({
+  value,
+  label = 'Copiar',
+}: {
+  value: string
+  label?: string
+}) {
   const [copied, setCopied] = useState(false)
 
   async function handleCopy() {
-    await navigator.clipboard.writeText(txHash)
+    await navigator.clipboard.writeText(value)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
 
-  const polygonscanUrl = `https://amoy.polygonscan.com/tx/${txHash}`
+  return (
+    <button
+      type="button"
+      onClick={handleCopy}
+      title={copied ? 'Copiado' : label}
+      className="inline-flex items-center gap-1 px-2 py-1 rounded border border-gray-200 text-xs text-gray-500 hover:bg-gray-100 transition-colors flex-shrink-0"
+    >
+      {copied ? (
+        <>
+          <span>✅</span>
+          <span className="text-emerald-600 font-medium">Copiado</span>
+        </>
+      ) : (
+        <>
+          <span>📋</span>
+          <span>{label}</span>
+        </>
+      )}
+    </button>
+  )
+}
 
-  const formattedDate = new Date(timestamp).toLocaleDateString('es-CO', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-  })
+function DataLabel({ children }: { children: React.ReactNode }) {
+  return (
+    <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">
+      {children}
+    </p>
+  )
+}
 
+export default function BlockchainInfoPanel({
+  txHash,
+  blockNumber,
+  timestamp,
+  gas,
+  contractAddress,
+}: Props) {
   return (
     <div className="bg-blue-50 rounded-xl border border-blue-200 p-6 space-y-4">
       <h3 className="text-xs font-semibold text-blue-900 uppercase tracking-wider">
         Registro en Blockchain · Polygon Amoy
       </h3>
 
-      {/* TX Hash card */}
+      {/* TX Hash */}
       <div className="bg-white rounded-lg border border-blue-100 p-4">
-        <p className="text-xs text-gray-400 font-medium mb-1">Transaction Hash</p>
-        <p className="font-mono text-sm text-gray-800 break-all">{shortHash(txHash)}</p>
-        <p className="font-mono text-xs text-gray-400 mt-0.5 break-all hidden sm:block">{txHash}</p>
-
-        <div className="flex flex-wrap gap-2 mt-4">
-          <a
-            href={polygonscanUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#1a237e] text-white text-xs font-medium rounded-md hover:bg-[#283593] transition-colors"
-          >
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
-            Ver en Polygonscan
-          </a>
-
-          <button
-            type="button"
-            onClick={handleCopy}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white text-gray-700 text-xs font-medium rounded-md border border-gray-300 hover:bg-gray-50 transition-colors"
-          >
-            {copied ? (
-              <>
-                <svg className="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span className="text-emerald-600">Copiado</span>
-              </>
-            ) : (
-              <>
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-                Copiar TX Hash
-              </>
-            )}
-          </button>
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
+            <DataLabel>Transaction Hash</DataLabel>
+            <p className="font-mono text-sm text-gray-800 break-all">{shortHash(txHash)}</p>
+          </div>
+          <CopyButton value={txHash} label="Copiar TX" />
         </div>
       </div>
 
-      {/* Metadata grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-        <div className="bg-white rounded-lg border border-blue-100 p-3">
-          <p className="text-xs text-gray-400 font-medium mb-1">Bloque</p>
-          <p className="font-mono text-sm font-semibold text-gray-800">#{blockNumber.toLocaleString()}</p>
-        </div>
-        <div className="bg-white rounded-lg border border-blue-100 p-3">
-          <p className="text-xs text-gray-400 font-medium mb-1">Timestamp</p>
-          <p className="text-sm text-gray-800">{formattedDate}</p>
-        </div>
-        <div className="bg-white rounded-lg border border-blue-100 p-3">
-          <p className="text-xs text-gray-400 font-medium mb-1">Gas usado</p>
-          <p className="font-mono text-sm font-semibold text-gray-800">{gas.toLocaleString()}</p>
+      {/* Contract Address */}
+      <div className="bg-white rounded-lg border border-blue-100 p-4">
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
+            <DataLabel>Contrato en Blockchain</DataLabel>
+            <p className="font-mono text-sm text-gray-800 break-all">{shortHash(contractAddress)}</p>
+          </div>
+          <CopyButton value={contractAddress} label="Copiar" />
         </div>
       </div>
+
+      {/* Metadata grid: 2 cols desktop, 1 mobile */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="bg-white rounded-lg border border-blue-100 p-4">
+          <DataLabel>Número de Bloque</DataLabel>
+          <p className="font-mono text-sm font-semibold text-gray-800">
+            #{blockNumber.toLocaleString('es-CO')}
+          </p>
+        </div>
+
+        <div className="bg-white rounded-lg border border-blue-100 p-4">
+          <DataLabel>Gas Usado</DataLabel>
+          <p className="font-mono text-sm font-semibold text-gray-800">
+            {gas.toLocaleString('es-CO')}
+          </p>
+        </div>
+
+        <div className="bg-white rounded-lg border border-blue-100 p-4 sm:col-span-2">
+          <DataLabel>Timestamp</DataLabel>
+          <p className="text-sm text-gray-800">{formatDate(timestamp)}</p>
+          <p className="text-xs text-gray-400 mt-0.5">{diasDesde(timestamp)}</p>
+        </div>
+      </div>
+
+      {/* Full-width Polygonscan button */}
+      <a
+        href={`https://amoy.polygonscan.com/tx/${txHash}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-[#1e3a8a] hover:bg-[#1e40af] text-white font-semibold rounded-lg transition-colors text-sm"
+      >
+        🔗 Ver Transacción en Polygonscan
+      </a>
     </div>
   )
 }
