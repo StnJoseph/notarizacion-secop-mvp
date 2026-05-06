@@ -1,0 +1,72 @@
+[
+  {
+    "notice_uid": "CO1.NTC.5243512",
+    "id_contrato": "CO1.PCCNTR.5598957",
+    "hash_sha256": "b7ee6d9680c509cfa0316cca3ca15161e51e58c582e6e0fea3339bad254ac6dc",
+    "clasificacion": "CONSISTENTE",
+    "tx_hash": "0x2f549632babc4c0d0fb0b15654f55501095ff6671411d898a780946b898aa8f8",
+    "block_number": 36765659,
+    "block_timestamp": "2026-04-16T21:17:55+00:00",
+    "contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "chain_id": 80002,
+    "estado": "REGISTRADO",
+    "error": "",
+    "gas_usado": 140880
+  },
+  {
+    "notice_uid": "CO1.NTC.2335373",
+    "id_contrato": "CO1.PCCNTR.2959813",
+    "hash_sha256": "3e4d64b3f3df046bd20c65ce7853a4cbed30300dcd0c3206bfbf5ada9afa2e51",
+    "clasificacion": "INCONSISTENTE",
+    "tx_hash": "0x2cdefb7d28a8931d78b136edf7d2e32688456f84cc4fddd772228f508abb358a",
+    "block_number": 36765661,
+    "block_timestamp": "2026-04-16T21:17:58+00:00",
+    "contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "chain_id": 80002,
+    "estado": "REGISTRADO",
+    "error": "",
+    "gas_usado": 123804
+  },
+  {
+    "notice_uid": "CO1.NTC.5127334",
+    "id_contrato": "CO1.PCCNTR.5509285",
+    "hash_sha256": "1edba5fc4eced678e43899850c603b481efc2ed6c3d5fd6f30f2f3bc6e02c9cc",
+    "clasificacion": "CONSISTENTE",
+    "tx_hash": "0x6bd3bdd8c4320323d845909542affa7ef4f0b82601eaa164bdc5d948b4e540ef",
+    "block_number": 36765663,
+    "block_timestamp": "2026-04-16T21:18:01+00:00",
+    "contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "chain_id": 80002,
+    "estado": "REGISTRADO",
+    "error": "",
+    "gas_usado": 123780
+  },
+  {
+    "notice_uid": "CO1.NTC.7025417",
+    "id_contrato": "CO1.PCCNTR.7008225",
+    "hash_sha256": "fada5b6d5d7f038b33287b4866c5c06367409fbc7dc43587dff47bd28034d574",
+    "clasificacion": "CONSISTENTE",
+    "tx_hash": "0xf1ace4c5d104ed52997f3f31890f44c306ac0da061548c7b5f61b29b2105fd18",
+    "block_number": 36765666,
+    "block_timestamp": "2026-04-16T21:18:06+00:00",
+    "contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "chain_id": 80002,
+    "estado": "REGISTRADO",
+    "error": "",
+    "gas_usado": 123780
+  },
+  {
+    "notice_uid": "CO1.NTC.1595102",
+    "id_contrato": "CO1.PCCNTR.2041066",
+    "hash_sha256": "eb0c4eb649a5c6a4d05046855b79293fcdf7a3b8efd933081b7031ce03c71904",
+    "clasificacion": "CONSISTENTE",
+    "tx_hash": "0x90be5d2c36379364aadeae0dad346ea5e1e48543c95945ad1633ec887c94d860",
+    "block_number": 36765668,
+    "block_timestamp": "2026-04-16T21:18:09+00:00",
+    "contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "chain_id": 80002,
+    "estado": "REGISTRADO",
+    "error": "",
+    "gas_usado": 123780
+  }
+]

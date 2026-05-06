@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const p=require\\('./node_modules/next/package.json'\\); console.log\\(p.version\\)\")",
+      "Bash(mkdir \"c:\\\\Users\\\\josep\\\\notarizacion-secop-mvp\\\\src\\\\pages\")",
+      "Bash(npx tsc *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\josep\\notarizacion-secop-mvp\\src"
+    ]
+  }
+}
