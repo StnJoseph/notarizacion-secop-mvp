@@ -1,9 +1,9 @@
 "use client";
 import { Suspense } from "react";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
-import { buscarComprobante, obtenerTodosLosNoticeUIDs } from "@/src/lib/data";
-import { ProofRecord } from "@/src/lib/types";
+import { useSearchParams, useRouter } from "next/navigation";
+import { buscarComprobante, obtenerTodosLosNoticeUIDs, obtenerTodosLosRegistros } from "@/src/lib/data";
+import { ProofRecord, RegistroNotarizacion } from "@/src/lib/types";
 import SearchBar from "@/src/components/SearchBar";
 import Badge from "@/src/components/Badge";
 import TabSwitch from "@/src/components/TabSwitch";
@@ -11,14 +11,32 @@ import VerificationTable from "@/src/components/VerificationTable";
 import BlockchainInfoPanel from "@/src/components/BlockchainInfoPanel";
 import ComprobanteSummary from "@/src/components/ComprobanteSummary";
 
+type FiltroClasificacion = "Todos" | "CONSISTENTE" | "INCONSISTENTE" | "ADVERTENCIA" | "NO_VERIFICABLE";
+
+const FILTROS: FiltroClasificacion[] = ["Todos", "CONSISTENTE", "INCONSISTENTE", "ADVERTENCIA", "NO_VERIFICABLE"];
+
+const COLORES_FILTRO: Record<Exclude<FiltroClasificacion, "Todos">, string> = {
+  CONSISTENTE: "bg-emerald-50 text-emerald-700 border-emerald-200",
+  INCONSISTENTE: "bg-rose-50 text-rose-700 border-rose-200",
+  ADVERTENCIA: "bg-amber-50 text-amber-700 border-amber-200",
+  NO_VERIFICABLE: "bg-slate-50 text-slate-700 border-slate-200",
+};
+
 function BuscarContent() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const idContrato = searchParams.get("id");
-  
+
   const [proof, setProof] = useState<ProofRecord | null>(null);
   const [loading, setLoading] = useState(false);
   const [notFound, setNotFound] = useState(false);
   const [activeTab, setActiveTab] = useState("comprobante");
+  const [registros, setRegistros] = useState<RegistroNotarizacion[]>([]);
+  const [filtroActivo, setFiltroActivo] = useState<FiltroClasificacion>("Todos");
+
+  useEffect(() => {
+    obtenerTodosLosRegistros().then(setRegistros);
+  }, []);
 
   useEffect(() => {
     if (!idContrato) {
@@ -44,14 +62,79 @@ function BuscarContent() {
 
   // Sin búsqueda
   if (!idContrato) {
+    const conteoPorClasificacion = registros.reduce<Record<string, number>>((acc, r) => {
+      acc[r.clasificacion] = (acc[r.clasificacion] || 0) + 1;
+      return acc;
+    }, {});
+
+    const conteoFiltro = (f: FiltroClasificacion) =>
+      f === "Todos" ? registros.length : conteoPorClasificacion[f] || 0;
+
+    const registrosFiltrados =
+      filtroActivo === "Todos"
+        ? registros
+        : registros.filter((r) => r.clasificacion === filtroActivo);
+
     return (
-      <div className="max-w-4xl mx-auto py-12 px-4">
+      <div className="max-w-6xl mx-auto py-12 px-4">
         <h1 className="text-3xl font-bold mb-8 text-gray-900">Buscar Comprobante</h1>
-        
-        <div className="mb-8">
+
+        <div className="mb-6">
           <SearchBar />
         </div>
-        
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          {FILTROS.map((f) => {
+            const activo = filtroActivo === f;
+            let className = "px-4 py-2 rounded-full text-sm font-semibold border transition-colors ";
+            if (f === "Todos") {
+              className += activo
+                ? "bg-[#1e3a8a] text-white border-[#1e3a8a]"
+                : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50";
+            } else {
+              className += activo
+                ? COLORES_FILTRO[f]
+                : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50";
+            }
+            return (
+              <button
+                key={f}
+                type="button"
+                onClick={() => setFiltroActivo(f)}
+                className={className}
+              >
+                {f} ({conteoFiltro(f)})
+              </button>
+            );
+          })}
+        </div>
+
+        <p className="text-sm text-gray-500 mb-4">
+          Mostrando {registrosFiltrados.length} de {registros.length} contratos
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+          {registrosFiltrados.map((r) => (
+            <div
+              key={r.id_contrato}
+              onClick={() => router.push(`/buscar?id=${r.id_contrato}`)}
+              className="bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-[#1e3a8a] transition-all cursor-pointer p-4"
+            >
+              <p className="font-mono text-sm text-gray-500 mb-1">{r.notice_uid}</p>
+              <p className="font-semibold text-gray-900 text-base mb-3">{r.id_contrato}</p>
+              <div className="mb-3">
+                <Badge clasificacion={r.clasificacion} size="sm" />
+              </div>
+              <div className="flex items-center gap-4 text-sm text-gray-600">
+                {r.n_inconsistencias > 0 && (
+                  <span>⚠️ {r.n_inconsistencias}</span>
+                )}
+                <span>📄 {r.n_paginas}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
         <div className="p-6 bg-blue-50 border border-blue-200 rounded-lg">
           <p className="text-sm text-blue-900">
             <strong>Tip:</strong> Ingresa un ID de contrato del SECOP II para verificar su integridad.

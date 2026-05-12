@@ -37,6 +37,10 @@ export async function obtenerTodosLosNoticeUIDs(): Promise<string[]> {
   return registros.map((r) => r.id_contrato);
 }
 
+export async function obtenerTodosLosRegistros(): Promise<RegistroNotarizacion[]> {
+  return cargarRegistros();
+}
+
 export async function buscarComprobante(idContrato: string): Promise<ProofRecord | null> {
   const registros = await cargarRegistros();
   const blockchain = await cargarBlockchain();
