@@ -66,7 +66,7 @@ export default function Home() {
             <br className="hidden sm:block" />
             de Integridad
           </h1>
-          <p className="text-md sm:text-xl text-blue-100 max-w-3xl mx-auto mb-5 leading-relaxed">
+          <p className="text-sm sm:text-base text-blue-100 max-w-3xl mx-auto mb-5 leading-relaxed">
             Cada contrato público registrado en este portal tiene una huella criptográfica única almacenada en blockchain. Ingresa el identificador del proceso o el hash del documento para comprobar su autenticidad de forma independiente, sin intermediarios.
           </p>
           <Link
@@ -79,8 +79,8 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-10 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-6">
           {loading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {Array.from({ length: 4 }).map((_, i) => (
@@ -92,35 +92,26 @@ export default function Home() {
             </div>
           ) : stats && (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-medium text-gray-500">Total contratos</span>
-                </div>
-                <p className="text-4xl font-bold text-[#1e3a8a]">{stats.total}</p>
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col items-center justify-center text-center min-h-[180px]">
+                <span className="text-sm font-medium text-gray-500 mb-3">Total contratos</span>
+                <p className="text-5xl font-bold text-[#1e3a8a]">{stats.total}</p>
               </div>
 
-              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-medium text-gray-500">Consistencia</span>
-                </div>
-                <p className={`text-4xl font-bold ${consistenciaColor(stats.porcentajeConsistencia)}`}>
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col items-center justify-center text-center min-h-[180px]">
+                <span className="text-sm font-medium text-gray-500 mb-3">Consistencia</span>
+                <p className={`text-5xl font-bold ${consistenciaColor(stats.porcentajeConsistencia)}`}>
                   {stats.porcentajeConsistencia}%
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl"></span>
-                  <span className="text-sm font-medium text-gray-500">Consistentes</span>
-                </div>
-                <p className="text-4xl font-bold text-emerald-600">{stats.consistentes}</p>
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col items-center justify-center text-center min-h-[180px]">
+                <span className="text-sm font-medium text-gray-500 mb-3">Consistentes</span>
+                <p className="text-5xl font-bold text-emerald-600">{stats.consistentes}</p>
               </div>
 
-              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-medium text-gray-500">Inconsistencias</span>
-                </div>
-                <p className="text-4xl font-bold text-rose-600">{stats.inconsistentes}</p>
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col items-center justify-center text-center min-h-[180px]">
+                <span className="text-sm font-medium text-gray-500 mb-3">Inconsistencias</span>
+                <p className="text-5xl font-bold text-rose-600">{stats.inconsistentes}</p>
               </div>
             </div>
           )}
@@ -128,9 +119,9 @@ export default function Home() {
       </section>
 
       {/* How it works */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-15">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
+          <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">¿Cómo Funciona?</h2>
             <p className="text-gray-500 max-w-xl mx-auto">
               Cinco pasos para garantizar la transparencia e integridad de los contratos públicos.
