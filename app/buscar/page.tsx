@@ -33,10 +33,39 @@ function BuscarContent() {
   const [activeTab, setActiveTab] = useState("comprobante");
   const [registros, setRegistros] = useState<RegistroNotarizacion[]>([]);
   const [filtroActivo, setFiltroActivo] = useState<FiltroClasificacion>("Todos");
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
+    script.async = true;
+    document.head.appendChild(script);
+
+    const style = document.createElement('style');
+    style.textContent = '@media print { .no-print { display: none; } }';
+    document.head.appendChild(style);
+
+    return () => {
+      document.head.removeChild(script);
+      document.head.removeChild(style);
+    };
+  }, []);
 
   useEffect(() => {
     obtenerTodosLosRegistros().then(setRegistros);
   }, []);
+
+  const handleDescargarPDF = () => {
+    setIsGeneratingPDF(true);
+    const elemento = document.getElementById('comprobante-contenido');
+    (window as any).html2pdf().set({
+      margin: 10,
+      filename: `comprobante_${proof?.id_contrato}.pdf`,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+    }).from(elemento).save().finally(() => setIsGeneratingPDF(false));
+  };
 
   useEffect(() => {
     if (!idContrato) {
@@ -183,7 +212,7 @@ function BuscarContent() {
   if (!proof) return null;
 
   return (
-    <div className="max-w-5xl mx-auto py-12 px-4">
+    <div id="comprobante-contenido" className="max-w-5xl mx-auto py-12 px-4">
       {/* Encabezado */}
       <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
         <div className="flex items-start justify-between flex-wrap gap-4 mb-4">
@@ -274,12 +303,19 @@ function BuscarContent() {
       </div>
 
       {/* Botones de acción */}
-      <div className="mt-8 flex gap-4 flex-wrap">
+      <div className="mt-8 flex gap-4 flex-wrap no-print">
         <button
           onClick={() => window.location.href = "/buscar"}
           className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-medium"
         >
           ← Nueva búsqueda
+        </button>
+        <button
+          onClick={handleDescargarPDF}
+          disabled={isGeneratingPDF}
+          className={`px-6 py-3 bg-[#1e3a8a] text-white rounded-lg hover:bg-[#1e2f6a] transition-colors font-medium${isGeneratingPDF ? " opacity-60 cursor-not-allowed" : ""}`}
+        >
+          {isGeneratingPDF ? "Generando..." : "⬇ Descargar PDF"}
         </button>
         <a
           href={proof.polygonscan_url}
