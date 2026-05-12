@@ -56,12 +56,10 @@ function CopyButton({
     >
       {copied ? (
         <>
-          <span>✅</span>
           <span className="text-emerald-600 font-medium">Copiado</span>
         </>
       ) : (
         <>
-          <span>📋</span>
           <span>{label}</span>
         </>
       )}
@@ -142,7 +140,7 @@ export default function BlockchainInfoPanel({
         rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-[#1e3a8a] hover:bg-[#1e40af] text-white font-semibold rounded-lg transition-colors text-sm"
       >
-        🔗 Ver Transacción en Polygonscan
+        Ver Transacción en Polygonscan
       </a>
     </div>
   )
