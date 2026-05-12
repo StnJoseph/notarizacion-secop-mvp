@@ -66,8 +66,8 @@ export default function Home() {
             <br className="hidden sm:block" />
             de Integridad
           </h1>
-          <p className="text-md sm:text-xl text-blue-100 max-w-3xl mx-auto mb-5 leading-relaxed">
-            Cada contrato público registrado en este portal tiene una huella criptográfica única almacenada en blockchain. Ingresa el identificador del proceso o el hash del documento para comprobar su autenticidad de forma independiente, sin intermediarios.
+          <p className="text-sm sm:text-base text-blue-100 max-w-3xl mx-auto mb-5 leading-relaxed">
+            Cada contrato público registrado en este portal tiene una huella criptográfica única almacenada en blockchain. Ingresando el identificador del proceso podras comprobar su autenticidad de forma independiente, sin intermediarios.
           </p>
           <Link
             href="/buscar"
