@@ -79,8 +79,15 @@ function BuscarContent() {
       <div className="max-w-6xl mx-auto py-12 px-4">
         <h1 className="text-3xl font-bold mb-8 text-gray-900">Buscar Comprobante</h1>
 
-        <div className="mb-6">
+        <div className="mb-8">
           <SearchBar />
+        </div>
+
+        <div className="p-6 bg-blue-50 border border-blue-200 rounded-lg mb-6">
+          <p className="text-sm text-blue-900">
+            <strong>Tip:</strong> Ingresa un ID de contrato del SECOP II para verificar su integridad.
+            Los comprobantes disponibles aparecerán en el autocompletado mientras escribes.
+          </p>
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">
@@ -133,13 +140,6 @@ function BuscarContent() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="p-6 bg-blue-50 border border-blue-200 rounded-lg">
-          <p className="text-sm text-blue-900">
-            <strong>Tip:</strong> Ingresa un ID de contrato del SECOP II para verificar su integridad.
-            Los comprobantes disponibles aparecerán en el autocompletado mientras escribes.
-          </p>
         </div>
       </div>
     );

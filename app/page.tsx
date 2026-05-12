@@ -94,7 +94,6 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl">📄</span>
                   <span className="text-sm font-medium text-gray-500">Total contratos</span>
                 </div>
                 <p className="text-4xl font-bold text-[#1e3a8a]">{stats.total}</p>
@@ -102,7 +101,6 @@ export default function Home() {
 
               <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl">📊</span>
                   <span className="text-sm font-medium text-gray-500">Consistencia</span>
                 </div>
                 <p className={`text-4xl font-bold ${consistenciaColor(stats.porcentajeConsistencia)}`}>
@@ -112,7 +110,7 @@ export default function Home() {
 
               <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl">✅</span>
+                  <span className="text-xl"></span>
                   <span className="text-sm font-medium text-gray-500">Consistentes</span>
                 </div>
                 <p className="text-4xl font-bold text-emerald-600">{stats.consistentes}</p>
@@ -120,7 +118,6 @@ export default function Home() {
 
               <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xl">⚠️</span>
                   <span className="text-sm font-medium text-gray-500">Inconsistencias</span>
                 </div>
                 <p className="text-4xl font-bold text-rose-600">{stats.inconsistentes}</p>
