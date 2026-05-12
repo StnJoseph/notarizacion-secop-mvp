@@ -134,9 +134,9 @@ function BuscarContent() {
               </div>
               <div className="flex items-center gap-4 text-sm text-gray-600">
                 {r.n_inconsistencias > 0 && (
-                  <span>⚠️ {r.n_inconsistencias}</span>
+                  <span>Inconsistencias: {r.n_inconsistencias}</span>
                 )}
-                <span>📄 {r.n_paginas}</span>
+                <span>Páginas: {r.n_paginas}</span>
               </div>
             </div>
           ))}
