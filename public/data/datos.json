@@ -413,15 +413,15 @@
       "proveedor_pdf": "BANCOLOMBIA",
       "valor_numerico_pdf": 503210859577
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "503,210,859,577",
         "valor_pdf": "503,210,859,577",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$503,210,859,577 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -452,9 +452,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$503,210,859,577 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0xac39be3dda6b9d2525b732de327b1a297b1c936049374591806d6bafbf634468",
     "bc_block_number": 38366775,
@@ -481,15 +479,15 @@
       "proveedor_pdf": "BANCOLOMBIA",
       "valor_numerico_pdf": 365000000000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "365,000,000,000",
         "valor_pdf": "365,000,000,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$365,000,000,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -520,9 +518,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$365,000,000,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x518a7343618d837dea8d3b6ea6e2b45971b4e7ddac80a27122a92c0ddb8e785f",
     "bc_block_number": 38366782,
@@ -549,15 +545,15 @@
       "proveedor_pdf": "BBOGOTA",
       "valor_numerico_pdf": 296539017355
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "296,539,017,355",
         "valor_pdf": "296,539,017,355",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$296,539,017,355 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -588,9 +584,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$296,539,017,355 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0xc0d06a68bcbdaa88c2d09b5e0afe8eb7e6e9b1b452b29d8e0149f8ce5dd1c017",
     "bc_block_number": 38366789,
@@ -617,15 +611,15 @@
       "proveedor_pdf": "ESE CENTRO DE SALUD",
       "valor_numerico_pdf": 286723822000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "286,723,822,000",
         "valor_pdf": "286,723,822,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$286,723,822,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -656,9 +650,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$286,723,822,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x291bd2ae5da33f2cb42c9f457a37a08883a16f3c1bb193c69f9eed9abf7cf235",
     "bc_block_number": 38366948,
@@ -685,15 +677,15 @@
       "proveedor_pdf": "ALCALDÍA MUNICIPAL DE",
       "valor_numerico_pdf": 250000000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "250,000,000",
         "valor_pdf": "250,000,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$250,000,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -724,9 +716,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$250,000,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x1268287d3718d229487b2144b5ddea1249631ce40589a45922a2731571b9d97b",
     "bc_block_number": 38366833,
@@ -753,15 +743,15 @@
       "proveedor_pdf": "Yuridia Angélica Murillo",
       "valor_numerico_pdf": 239856000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "239,856,000",
         "valor_pdf": "239,856,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$239,856,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -792,9 +782,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$239,856,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0xf03ef72644d4d27f61aff91b618db0337791e695d2ccf395c352e20e78bde037",
     "bc_block_number": 38366840,
@@ -822,14 +810,14 @@
       "valor_numerico_pdf": 184938360775
     },
     "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 2,
+    "n_inconsistencias": 1,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "184,938,360,775",
         "valor_pdf": "184,938,360,775",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$184,938,360,775 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -861,7 +849,6 @@
       }
     ],
     "inconsistencias": [
-      "Valor: API=$0 vs PDF=$184,938,360,775 — API reporta cero pero el documento tiene un monto",
       "Fecha fin: API='2027-11-28' anterior al PDF='2027-11-30' (2 días) — revisar manualmente"
     ],
     "bc_estado": "REGISTRADO",
@@ -1022,15 +1009,15 @@
       "proveedor_pdf": "¿Permitir visitas al lugar de",
       "valor_numerico_pdf": 15920491690656
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "70,004,916,907",
-        "valor_pdf": "15,920,491,690,656",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$70,004,916,907 vs PDF=$15,920,491,690,656 (22641.96%)"
+        "valor_api": "159,204,916,906",
+        "valor_pdf": "159,204,916,906",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -1042,9 +1029,9 @@
       {
         "campo": "proveedor_adjudicado",
         "valor_api": "CISP",
-        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Proveedor: sim=0% | API='CISP' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+        "valor_pdf": "CISP",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "duracion_contrato",
@@ -1061,10 +1048,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$70,004,916,907 vs PDF=$15,920,491,690,656 (22641.96%)",
-      "Proveedor: sim=0% | API='CISP' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x6d103752192a556eae1ae57877a038db73863b179dd6e60b6d808ee07b859b08",
     "bc_block_number": 38368103,
@@ -1091,15 +1075,15 @@
       "proveedor_pdf": "FINANCIERA DE",
       "valor_numerico_pdf": 154426910753
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 2,
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "154,426,910,753",
         "valor_pdf": "154,426,910,753",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$154,426,910,753 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -1131,7 +1115,6 @@
       }
     ],
     "inconsistencias": [
-      "Valor: API=$0 vs PDF=$154,426,910,753 — API reporta cero pero el documento tiene un monto",
       "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
     ],
     "bc_estado": "REGISTRADO",
@@ -1160,15 +1143,15 @@
       "proveedor_pdf": "BANCOLOMBIA",
       "valor_numerico_pdf": 153500000000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "153,500,000,000",
         "valor_pdf": "153,500,000,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$153,500,000,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -1199,9 +1182,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$153,500,000,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x47bd3dc3b1659b091623f3f24c9ff7aeb3dd515e98e523ca86c2b9c0a6f1897f",
     "bc_block_number": 38368221,
@@ -1707,15 +1688,15 @@
       "proveedor_pdf": "¿Permitir visitas al lugar de",
       "valor_numerico_pdf": 118889017436
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "118,889,017,436",
         "valor_pdf": "118,889,017,436",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$118,889,017,436 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -1727,9 +1708,9 @@
       {
         "campo": "proveedor_adjudicado",
         "valor_api": "BANCO AGRARIO DE COLOMBIA S.A.",
-        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Proveedor: sim=0% | API='BANCO AGRARIO DE COLOMBIA S.A.' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+        "valor_pdf": "BANCO AGRARIO DE COLOMBIA S.A.",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "duracion_contrato",
@@ -1746,10 +1727,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$118,889,017,436 — API reporta cero pero el documento tiene un monto",
-      "Proveedor: sim=0% | API='BANCO AGRARIO DE COLOMBIA S.A.' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x1be3e7dca2c98c22d471dc180b8762f04b744e8201a6b68129100bdbf73b64ed",
     "bc_block_number": 38368425,
@@ -1776,15 +1754,15 @@
       "proveedor_pdf": "BANCO POPULAR",
       "valor_numerico_pdf": 114000000000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "114,000,000,000",
         "valor_pdf": "114,000,000,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$114,000,000,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -1815,9 +1793,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$114,000,000,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x4e6835ec8122aa0ca0c5adb4bc4294dc3ba1e0bce937252e6bdd56873905524d",
     "bc_block_number": 38368599,
@@ -1844,15 +1820,15 @@
       "proveedor_pdf": "GOBERNACION DEL",
       "valor_numerico_pdf": 100653000000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "100,653,000,000",
         "valor_pdf": "100,653,000,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$100,653,000,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -1883,9 +1859,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$0 vs PDF=$100,653,000,000 — API reporta cero pero el documento tiene un monto"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x383168b8917202244b875b91e53637442bd86f41c67ce9dc65e64dfe8d999b40",
     "bc_block_number": 38368606,
@@ -1980,15 +1954,15 @@
       "proveedor_pdf": "BANCOLOMBIA",
       "valor_numerico_pdf": 97000000000
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 3,
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 2,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "0",
+        "valor_api": "97,000,000,000",
         "valor_pdf": "97,000,000,000",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$0 vs PDF=$97,000,000,000 — API reporta cero pero el documento tiene un monto"
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -2020,7 +1994,6 @@
       }
     ],
     "inconsistencias": [
-      "Valor: API=$0 vs PDF=$97,000,000,000 — API reporta cero pero el documento tiene un monto",
       "Modalidad: API='CONTRATACIÓN DIRECTA' vs PDF='CONTRATACIÓN RÉGIMEN ESPECIAL'",
       "Fecha fin: PDF='2024-10-31' (firma original) | API='2035-10-08' (estado vigente, +3994 días) | Probable prórroga registrada en la API"
     ],
@@ -2387,15 +2360,15 @@
       "proveedor_pdf": "Banco de Occidente SA",
       "valor_numerico_pdf": 7998281113396
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 2,
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
     "verificaciones": [
       {
         "campo": "valor_contrato",
         "valor_api": "79,982,811,133",
-        "valor_pdf": "7,998,281,113,396",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$79,982,811,133 vs PDF=$7,998,281,113,396 (9900.00%)"
+        "valor_pdf": "79,982,811,133",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -2427,7 +2400,6 @@
       }
     ],
     "inconsistencias": [
-      "Valor: API=$79,982,811,133 vs PDF=$7,998,281,113,396 (9900.00%)",
       "Fecha fin: PDF='2021-03-26' (firma original) | API='2031-03-26' (estado vigente, +3652 días) | Probable prórroga registrada en la API"
     ],
     "bc_estado": "REGISTRADO",
@@ -3330,15 +3302,15 @@
       "proveedor_pdf": "¿Permitir visitas al lugar de",
       "valor_numerico_pdf": 6479438028
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 2,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
-        "valor_api": "64,794,380,280",
-        "valor_pdf": "6,479,438,028",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Valor: API=$64,794,380,280 vs PDF=$6,479,438,028 (90.00%)"
+        "valor_api": "647,943,802",
+        "valor_pdf": "647,943,802.8",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "modalidad_contratacion",
@@ -3350,9 +3322,9 @@
       {
         "campo": "proveedor_adjudicado",
         "valor_api": "CARLOS MAURICIO PEREZ CASTRO",
-        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Proveedor: sim=0% | API='CARLOS MAURICIO PEREZ CASTRO' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+        "valor_pdf": "CARLOS MAURICIO PEREZ CASTRO",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "duracion_contrato",
@@ -3369,10 +3341,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Valor: API=$64,794,380,280 vs PDF=$6,479,438,028 (90.00%)",
-      "Proveedor: sim=0% | API='CARLOS MAURICIO PEREZ CASTRO' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0xfb69305db4156f653c5935ab4640fc6dc32e952e17082bcb5426aad18435adbf",
     "bc_block_number": 38370089,
@@ -3399,8 +3368,8 @@
       "proveedor_pdf": "¿Permitir visitas al lugar de",
       "valor_numerico_pdf": 64062117216
     },
-    "clasificacion": "INCONSISTENTE",
-    "n_inconsistencias": 1,
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
     "verificaciones": [
       {
         "campo": "valor_contrato",
@@ -3419,9 +3388,9 @@
       {
         "campo": "proveedor_adjudicado",
         "valor_api": "CORPORACIN CRECER EDUCADOS",
-        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
-        "resultado": "INCONSISTENTE",
-        "detalle": "Proveedor: sim=0% | API='CORPORACIN CRECER EDUCADOS' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+        "valor_pdf": "CORPORACIN CRECER EDUCADOS",
+        "resultado": "OK",
+        "detalle": ""
       },
       {
         "campo": "duracion_contrato",
@@ -3438,9 +3407,7 @@
         "detalle": ""
       }
     ],
-    "inconsistencias": [
-      "Proveedor: sim=0% | API='CORPORACIN CRECER EDUCADOS' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
-    ],
+    "inconsistencias": [],
     "bc_estado": "REGISTRADO",
     "bc_tx_hash": "0x20f55ff3a96a23e21ea58bc49fbea6f1ee4a74902e97bbfb7404b5ff95c07922",
     "bc_block_number": 38375064,
@@ -3448,6 +3415,277 @@
     "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
     "bc_chain_id": 80002,
     "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8829225",
+    "id_contrato": "CO1.PCCNTR.8362636",
+    "hash_sha256": "c30cbef7472803a22208fd544d75abc2f32729b6071fda71bd9b3820ce43074a",
+    "timestamp_pipeline": "2026-05-14T23:00:30.360982+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8829225.pdf",
+    "campos_pdf": {
+      "valor_pdf": "64.062.117.216",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "12 (Año(s))",
+      "fecha_fin_pdf": "31/12/2036",
+      "proveedor_pdf": "CORPORACIN CRECER",
+      "valor_numerico_pdf": 64062117216
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "64,062,117,216",
+        "valor_pdf": "64,062,117,216",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "CORPORACIN CRECER EDUCADOS",
+        "valor_pdf": "CORPORACIN CRECER",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "12 Año(s)",
+        "valor_pdf": "12 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2036-12-31",
+        "valor_pdf": "2036-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xe0625eefaea76e59e64212983dfcb479fa1024ebd5cbf6767747fbf828259f7b",
+    "bc_block_number": 38379364,
+    "bc_block_timestamp": "2026-05-14T23:00:55+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8829245",
+    "id_contrato": "CO1.PCCNTR.8362591",
+    "hash_sha256": "f84d7aaae04361cdfee65334883eb3812f6909ec2e0b35442a63a33cea126ea0",
+    "timestamp_pipeline": "2026-05-14T23:00:55.296188+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.8829245.pdf",
+    "campos_pdf": {
+      "valor_pdf": "64.062.117.216",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "12 (Año(s))",
+      "fecha_fin_pdf": "31/12/2035",
+      "proveedor_pdf": "CORPORACIN CRECER",
+      "valor_numerico_pdf": 64062117216
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "64,062,117,216",
+        "valor_pdf": "64,062,117,216",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "CORPORACIN CRECER EDUCADOS",
+        "valor_pdf": "CORPORACIN CRECER",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "12 Año(s)",
+        "valor_pdf": "12 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2035-12-31",
+        "valor_pdf": "2035-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xcc345b9a28862d6d09c9110ee6d081c0258865cc419109841d3255d7ee0719c6",
+    "bc_block_number": 38379371,
+    "bc_block_timestamp": "2026-05-14T23:01:05+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.6637180",
+    "id_contrato": "CO1.PCCNTR.8409794",
+    "hash_sha256": "5ab8ff817aea2aa21cac45cf00819e5bd979ae0cbd5a609865bfe263b1cd8a83",
+    "timestamp_pipeline": "2026-05-14T23:01:05.770519+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.6637180.pdf",
+    "campos_pdf": {
+      "valor_pdf": "0",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "36 (Meses)",
+      "fecha_fin_pdf": "30/08/2027",
+      "proveedor_pdf": "EMPRESA DE VIVIENDA Y",
+      "valor_numerico_pdf": 0
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 4,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "63,663,741,619",
+        "valor_pdf": "0",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$63,663,741,619 vs PDF=$0 (100.00%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "EMPRESA DE VIVIENDA Y DESARROLLO URBANO Y RURAL DEL MUNICIPIO DE ENVIGADO",
+        "valor_pdf": "EMPRESA DE VIVIENDA Y",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='EMPRESA DE VIVIENDA Y DESARROLLO URBANO Y RURAL DEL MUNICIPIO DE ENVIGADO' | PDF='EMPRESA DE VIVIENDA Y'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "22 Mes(es)",
+        "valor_pdf": "36 (Meses)",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Duración: API='22 Mes(es)' vs PDF='36 (Meses)'"
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2027-08-08",
+        "valor_pdf": "2027-08-30",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Fecha fin: API='2027-08-08' anterior al PDF='2027-08-30' (22 días) — revisar manualmente"
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$63,663,741,619 vs PDF=$0 (100.00%)",
+      "Proveedor: sim=25% | API='EMPRESA DE VIVIENDA Y DESARROLLO URBANO Y RURAL DEL MUNICIPIO DE ENVIGADO' | PDF='EMPRESA DE VIVIENDA Y'",
+      "Duración: API='22 Mes(es)' vs PDF='36 (Meses)'",
+      "Fecha fin: API='2027-08-08' anterior al PDF='2027-08-30' (22 días) — revisar manualmente"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xc5ece0709a40de7d603942771f1c85ae21be9a6a9146bedc23b9b75734e36dbb",
+    "bc_block_number": 38379379,
+    "bc_block_timestamp": "2026-05-14T23:01:17+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137232,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7656390",
+    "id_contrato": "CO1.PCCNTR.7511832",
+    "hash_sha256": "1b3fcc127dadc7232d86953cc39f783b193696024ad73cf179669cd4783c8629",
+    "timestamp_pipeline": "2026-05-14T23:01:18.548653+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.7656390.pdf",
+    "campos_pdf": {
+      "valor_pdf": "62.694.262.023",
+      "numero_proceso_pdf": "229182-2025",
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "132 (Días)",
+      "fecha_fin_pdf": "30/06/2025",
+      "proveedor_pdf": "DISTRITO ESPECIAL DE",
+      "valor_numerico_pdf": 62694262023
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "62,694,262,023",
+        "valor_pdf": "62,694,262,023",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+        "valor_pdf": "DISTRITO ESPECIAL DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=33% | API='DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN' | PDF='DISTRITO ESPECIAL DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "132 Dia(s)",
+        "valor_pdf": "132 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2025-06-30",
+        "valor_pdf": "2025-06-30",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=33% | API='DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN' | PDF='DISTRITO ESPECIAL DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x0899d0c607b494ef7dd6049e7b7841fef9e5aad2ca9e54f18b1f860e2175d0c2",
+    "bc_block_number": 38379387,
+    "bc_block_timestamp": "2026-05-14T23:01:29+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
     "bc_error": "",
     "error": ""
   }
