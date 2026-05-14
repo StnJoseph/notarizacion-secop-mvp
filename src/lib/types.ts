@@ -1,4 +1,3 @@
-// Tipos para registros de notarización
 export interface Verificacion {
   campo: string;
   valor_api: string | null;
@@ -17,38 +16,43 @@ export interface CamposPDF {
   valor_numerico_pdf: number;
 }
 
-export interface RegistroNotarizacion {
+type Clasificacion = "CONSISTENTE" | "INCONSISTENTE" | "DATO_AUSENTE" | "ADVERTENCIA" | "NO_VERIFICABLE";
+
+// Refleja el formato de datos.json (campos blockchain con prefijo bc_)
+export interface DatoUnificado {
   notice_uid: string;
   id_contrato: string;
   hash_sha256: string;
   timestamp_pipeline: string;
   n_paginas: number;
-  clasificacion: "CONSISTENTE" | "INCONSISTENTE" | "DATO_AUSENTE" | "ADVERTENCIA" | "NO_VERIFICABLE";
+  ruta_local: string;
+  campos_pdf: CamposPDF;
+  clasificacion: Clasificacion;
   n_inconsistencias: number;
   verificaciones: Verificacion[];
   inconsistencias: string[];
-  campos_pdf: CamposPDF;
-  ruta_local: string;
+  bc_estado: "REGISTRADO" | "PENDIENTE";
+  bc_tx_hash: string;
+  bc_block_number: number;
+  bc_block_timestamp: string;
+  bc_contract_address: string;
+  bc_chain_id: number;
+  bc_gas_usado: number;
+  bc_error: string;
   error: string;
 }
 
-export interface ComprobantesBlockchain {
-  notice_uid: string;
-  id_contrato: string;
-  hash_sha256: string;
-  clasificacion: "CONSISTENTE" | "INCONSISTENTE" | "DATO_AUSENTE" | "ADVERTENCIA" | "NO_VERIFICABLE";
+export type RegistroNotarizacion = DatoUnificado;
+
+// Extiende DatoUnificado con aliases normalizados de campos bc_ y campos calculados
+export interface ProofRecord extends DatoUnificado {
   tx_hash: string;
   block_number: number;
   block_timestamp: string;
   contract_address: string;
   chain_id: number;
-  estado: "REGISTRADO" | "PENDIENTE";
-  error: string;
   gas_usado: number;
-}
-
-// Tipo unificado que el frontend usa
-export interface ProofRecord extends RegistroNotarizacion, ComprobantesBlockchain {
+  estado: "REGISTRADO" | "PENDIENTE";
   polygonscan_url: string;
   dias_desde_notarizacion: number;
   badge_color: string;

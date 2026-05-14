@@ -1,0 +1,3454 @@
+[
+  {
+    "notice_uid": "CO1.NTC.5243512",
+    "id_contrato": "CO1.PCCNTR.5598957",
+    "hash_sha256": "b7ee6d9680c509cfa0316cca3ca15161e51e58c582e6e0fea3339bad254ac6dc",
+    "timestamp_pipeline": "2026-04-16T21:17:51.255610+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.5243512.pdf",
+    "campos_pdf": {
+      "valor_pdf": "3.154.066",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "35 (Días)",
+      "fecha_fin_pdf": "31/12/2023",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3154066
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "3,154,066",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "DIANA LORENA GORDILLO INSUASTI",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "35 Dia(s)",
+        "valor_pdf": "35 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-31",
+        "valor_pdf": "2023-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x2f549632babc4c0d0fb0b15654f55501095ff6671411d898a780946b898aa8f8",
+    "bc_block_number": 36765659,
+    "bc_block_timestamp": "2026-04-16T21:17:55+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 140880,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2335373",
+    "id_contrato": "CO1.PCCNTR.2959813",
+    "hash_sha256": "3e4d64b3f3df046bd20c65ce7853a4cbed30300dcd0c3206bfbf5ada9afa2e51",
+    "timestamp_pipeline": "2026-04-16T21:17:55.753915+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.2335373.pdf",
+    "campos_pdf": {
+      "valor_pdf": "9.462.000",
+      "numero_proceso_pdf": "4146.010.32.1.0895-2021",
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "70 (Días)",
+      "fecha_fin_pdf": "28/12/2021",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 9462000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "54,600,000",
+        "valor_pdf": "9,462,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$54,600,000 vs PDF=$9,462,000 (82.67%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ROBINSON PATIÑO CEBALLOS",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "70 Dia(s)",
+        "valor_pdf": "70 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2021-12-28",
+        "valor_pdf": "2021-12-28",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$54,600,000 vs PDF=$9,462,000 (82.67%)"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x2cdefb7d28a8931d78b136edf7d2e32688456f84cc4fddd772228f508abb358a",
+    "bc_block_number": 36765661,
+    "bc_block_timestamp": "2026-04-16T21:17:58+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 123804,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.5127334",
+    "id_contrato": "CO1.PCCNTR.5509285",
+    "hash_sha256": "1edba5fc4eced678e43899850c603b481efc2ed6c3d5fd6f30f2f3bc6e02c9cc",
+    "timestamp_pipeline": "2026-04-16T21:17:58.796906+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.5127334.pdf",
+    "campos_pdf": {
+      "valor_pdf": "3.150.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "60 (Días)",
+      "fecha_fin_pdf": "31/12/2023",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3150000
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "3,150,000",
+        "valor_pdf": "3,150,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "YESSICA KATTERINE CIFUENTES DIMINGO",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "60 Dia(s)",
+        "valor_pdf": "60 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-31",
+        "valor_pdf": "2023-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x6bd3bdd8c4320323d845909542affa7ef4f0b82601eaa164bdc5d948b4e540ef",
+    "bc_block_number": 36765663,
+    "bc_block_timestamp": "2026-04-16T21:18:01+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 123780,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7025417",
+    "id_contrato": "CO1.PCCNTR.7008225",
+    "hash_sha256": "fada5b6d5d7f038b33287b4866c5c06367409fbc7dc43587dff47bd28034d574",
+    "timestamp_pipeline": "2026-04-16T21:18:01.880150+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.7025417.pdf",
+    "campos_pdf": {
+      "valor_pdf": "3.150.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "38 (Días)",
+      "fecha_fin_pdf": "16/12/2024",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3150000
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "3,150,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "MARIANA HENAO CORREA",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "38 Dia(s)",
+        "valor_pdf": "38 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2024-12-16",
+        "valor_pdf": "2024-12-16",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xf1ace4c5d104ed52997f3f31890f44c306ac0da061548c7b5f61b29b2105fd18",
+    "bc_block_number": 36765666,
+    "bc_block_timestamp": "2026-04-16T21:18:06+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 123780,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.1595102",
+    "id_contrato": "CO1.PCCNTR.2041066",
+    "hash_sha256": "eb0c4eb649a5c6a4d05046855b79293fcdf7a3b8efd933081b7031ce03c71904",
+    "timestamp_pipeline": "2026-04-16T21:18:06.378768+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.1595102.pdf",
+    "campos_pdf": {
+      "valor_pdf": "3.100.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "25 (Días)",
+      "fecha_fin_pdf": "31/12/2020",
+      "proveedor_pdf": null,
+      "valor_numerico_pdf": 3100000
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "3,100,000",
+        "valor_pdf": "3,100,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "LUIS ALBERTO CORREDOR LONDOÑO",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "25 Dia(s)",
+        "valor_pdf": "25 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2020-12-31",
+        "valor_pdf": "2020-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x90be5d2c36379364aadeae0dad346ea5e1e48543c95945ad1633ec887c94d860",
+    "bc_block_number": 36765668,
+    "bc_block_timestamp": "2026-04-16T21:18:09+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 123780,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9092692",
+    "id_contrato": "CO1.PCCNTR.8565538",
+    "hash_sha256": "bc57a8a26b3d0694fd7c895c147041e0901eec0d8acbffc05119290dbf454055",
+    "timestamp_pipeline": "2026-05-14T17:45:11.777961+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9092692.pdf",
+    "campos_pdf": {
+      "valor_pdf": "770.095.956.400",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "54 (Días)",
+      "fecha_fin_pdf": "31/12/2025",
+      "proveedor_pdf": "PROSPERIDAD SOCIAL",
+      "valor_numerico_pdf": 770095956400
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "770,095,956,400",
+        "valor_pdf": "770,095,956,400",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "PROSPERIDAD SOCIAL",
+        "valor_pdf": "PROSPERIDAD SOCIAL",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "54 Dia(s)",
+        "valor_pdf": "54 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2025-12-31",
+        "valor_pdf": "2025-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x26021bf2877fe350d73df49fcb98efb3f32ee954fdfe4aeb58910b906b6a2dea",
+    "bc_block_number": 38366767,
+    "bc_block_timestamp": "2026-05-14T17:45:59+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9167766",
+    "id_contrato": "CO1.PCCNTR.8618650",
+    "hash_sha256": "547cb847427407151b1cfe57246fbee1ea6bb327fae1aec54e5867ecfccb6522",
+    "timestamp_pipeline": "2026-05-14T17:46:00.100920+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9167766.pdf",
+    "campos_pdf": {
+      "valor_pdf": "503.210.859.577",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "20/11/2035",
+      "proveedor_pdf": "BANCOLOMBIA",
+      "valor_numerico_pdf": 503210859577
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "503,210,859,577",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$503,210,859,577 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCOLOMBIA",
+        "valor_pdf": "BANCOLOMBIA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2035-11-19",
+        "valor_pdf": "2035-11-20",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$503,210,859,577 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xac39be3dda6b9d2525b732de327b1a297b1c936049374591806d6bafbf634468",
+    "bc_block_number": 38366775,
+    "bc_block_timestamp": "2026-05-14T17:46:11+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7988703",
+    "id_contrato": "CO1.PCCNTR.7772981",
+    "hash_sha256": "124ca32181ebc46fee9403fbafbc5c8b3cb8500380fc3dff495b3b47b7a2cc1d",
+    "timestamp_pipeline": "2026-05-14T17:46:12.118746+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.7988703.pdf",
+    "campos_pdf": {
+      "valor_pdf": "365.000.000.000",
+      "numero_proceso_pdf": "4131.010.32.1.941-2025",
+      "tipo_proceso_pdf": "Contratación\ndirecta (con\nofertas)",
+      "duracion_pdf": "12 (Año(s))",
+      "fecha_fin_pdf": "30/04/2037",
+      "proveedor_pdf": "BANCOLOMBIA",
+      "valor_numerico_pdf": 365000000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "365,000,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$365,000,000,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA (CON OFERTAS)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCOLOMBIA",
+        "valor_pdf": "BANCOLOMBIA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "12 Año(s)",
+        "valor_pdf": "12 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2037-04-30",
+        "valor_pdf": "2037-04-30",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$365,000,000,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x518a7343618d837dea8d3b6ea6e2b45971b4e7ddac80a27122a92c0ddb8e785f",
+    "bc_block_number": 38366782,
+    "bc_block_timestamp": "2026-05-14T17:46:22+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8908559",
+    "id_contrato": "CO1.PCCNTR.8424777",
+    "hash_sha256": "fb01bcb8eaa926a71b2b2a4741224d233b2ab3bfd801cb33714a7f817973a388",
+    "timestamp_pipeline": "2026-05-14T17:46:22.560135+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8908559.pdf",
+    "campos_pdf": {
+      "valor_pdf": "296.539.017.355",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "29/09/2035",
+      "proveedor_pdf": "BBOGOTA",
+      "valor_numerico_pdf": 296539017355
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "296,539,017,355",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$296,539,017,355 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BBOGOTA",
+        "valor_pdf": "BBOGOTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2035-09-29",
+        "valor_pdf": "2035-09-29",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$296,539,017,355 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xc0d06a68bcbdaa88c2d09b5e0afe8eb7e6e9b1b452b29d8e0149f8ce5dd1c017",
+    "bc_block_number": 38366789,
+    "bc_block_timestamp": "2026-05-14T17:46:32+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8869675",
+    "id_contrato": "CO1.PCCNTR.8396157",
+    "hash_sha256": "6da0f2163f75ad624624e4e33471bc2a1082973f795239023d312ae9c6040ce9",
+    "timestamp_pipeline": "2026-05-14T17:50:20.536926+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8869675.pdf",
+    "campos_pdf": {
+      "valor_pdf": "286.723.822.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "3 (Meses)",
+      "fecha_fin_pdf": "31/12/2025",
+      "proveedor_pdf": "ESE CENTRO DE SALUD",
+      "valor_numerico_pdf": 286723822000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "286,723,822,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$286,723,822,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ESE CENTRO DE SALUD SANTO ECCEHOMO",
+        "valor_pdf": "ESE CENTRO DE SALUD",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "3 Mes(es)",
+        "valor_pdf": "3 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2025-12-31",
+        "valor_pdf": "2025-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$286,723,822,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x291bd2ae5da33f2cb42c9f457a37a08883a16f3c1bb193c69f9eed9abf7cf235",
+    "bc_block_number": 38366948,
+    "bc_block_timestamp": "2026-05-14T17:50:31+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8346828",
+    "id_contrato": "CO1.PCCNTR.8024070",
+    "hash_sha256": "b7cbba3b444f96546d3d184507c5e30e8c741c901ee2aff891d2e50bdd0e13c4",
+    "timestamp_pipeline": "2026-05-14T17:47:07.305608+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8346828.pdf",
+    "campos_pdf": {
+      "valor_pdf": "250.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "1 (Meses)",
+      "fecha_fin_pdf": "26/07/2025",
+      "proveedor_pdf": "ALCALDÍA MUNICIPAL DE",
+      "valor_numerico_pdf": 250000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "250,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$250,000,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ALCALDÍA MUNICIPAL DE LURUACO",
+        "valor_pdf": "ALCALDÍA MUNICIPAL DE",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "1 Mes(es)",
+        "valor_pdf": "1 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2025-07-27",
+        "valor_pdf": "2025-07-26",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$250,000,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x1268287d3718d229487b2144b5ddea1249631ce40589a45922a2731571b9d97b",
+    "bc_block_number": 38366833,
+    "bc_block_timestamp": "2026-05-14T17:47:38+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7544791",
+    "id_contrato": "CO1.PCCNTR.7416025",
+    "hash_sha256": "6af26af8b6a9f8dbd8dd7c0c095f9152eab6755d385eb39bc2194ceafa073f97",
+    "timestamp_pipeline": "2026-05-14T17:47:38.999477+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.7544791.pdf",
+    "campos_pdf": {
+      "valor_pdf": "239.856.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "331 (Días)",
+      "fecha_fin_pdf": "31/12/2025",
+      "proveedor_pdf": "Yuridia Angélica Murillo",
+      "valor_numerico_pdf": 239856000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "239,856,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$239,856,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "YURIDIA ANGÉLICA MURILLO CÓRDOBA",
+        "valor_pdf": "YURIDIA ANGÉLICA MURILLO",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "331 Dia(s)",
+        "valor_pdf": "331 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2025-12-31",
+        "valor_pdf": "2025-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$239,856,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xf03ef72644d4d27f61aff91b618db0337791e695d2ccf395c352e20e78bde037",
+    "bc_block_number": 38366840,
+    "bc_block_timestamp": "2026-05-14T17:47:49+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8849538",
+    "id_contrato": "CO1.PCCNTR.8378839",
+    "hash_sha256": "f24fbbac69af3676637557278b9c8c8a5dcb9ae8f9c1f1ea773b1656d6c45ed8",
+    "timestamp_pipeline": "2026-05-14T18:18:34.751658+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8849538.pdf",
+    "campos_pdf": {
+      "valor_pdf": "184.938.360.775",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "26 (Meses)",
+      "fecha_fin_pdf": "30/11/2027",
+      "proveedor_pdf": "INSTITUTO PARA EL",
+      "valor_numerico_pdf": 184938360775
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "184,938,360,775",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$184,938,360,775 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "INSTITUTO PARA EL DESARROLLO DE ANTIOQUIA IDEA",
+        "valor_pdf": "INSTITUTO PARA EL",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "26 Mes(es)",
+        "valor_pdf": "26 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2027-11-28",
+        "valor_pdf": "2027-11-30",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Fecha fin: API='2027-11-28' anterior al PDF='2027-11-30' (2 días) — revisar manualmente"
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$184,938,360,775 — API reporta cero pero el documento tiene un monto",
+      "Fecha fin: API='2027-11-28' anterior al PDF='2027-11-30' (2 días) — revisar manualmente"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x73b90f1cc16b44006762ac02a212bc05740cceef2c06c032cef06678b2d8e0dc",
+    "bc_block_number": 38368079,
+    "bc_block_timestamp": "2026-05-14T18:18:47+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.5951905",
+    "id_contrato": "CO1.PCCNTR.6189439",
+    "hash_sha256": "34832391d8a7f8e5ed53af1b33b5d52cd7f5ca138610c5b895a7984eec34c5d2",
+    "timestamp_pipeline": "2026-05-14T18:18:48.068685+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.5951905.pdf",
+    "campos_pdf": {
+      "valor_pdf": "165.459.358.694",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "7 (Meses)",
+      "fecha_fin_pdf": "27/10/2024",
+      "proveedor_pdf": "Colombia Telecomunicaciones",
+      "valor_numerico_pdf": 165459358694
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "165,459,358,694",
+        "valor_pdf": "165,459,358,694",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
+        "valor_pdf": "COLOMBIA TELECOMUNICACIONES",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "7 Mes(es)",
+        "valor_pdf": "7 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2024-10-27",
+        "valor_pdf": "2024-10-27",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xb10aa705bd9dedfb6ca5d7f2e00c45d741f023884f8d0279e5659957e5ac4f5f",
+    "bc_block_number": 38368087,
+    "bc_block_timestamp": "2026-05-14T18:18:59+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9332531",
+    "id_contrato": "CO1.PCCNTR.8732115",
+    "hash_sha256": "2e38acc391f666f7e49d8bb31607729651ad4a53aa46bf395db993b5c02e542e",
+    "timestamp_pipeline": "2026-05-14T18:19:00.099977+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9332531.pdf",
+    "campos_pdf": {
+      "valor_pdf": "163.820.357.667",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "372 (Días)",
+      "fecha_fin_pdf": "31/12/2026",
+      "proveedor_pdf": "UNION TEMPORAL",
+      "valor_numerico_pdf": 163820357667
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "164,727,272,727",
+        "valor_pdf": "163,820,357,667",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "UNION TEMPORAL TRANSVERSAL DEL CARARE",
+        "valor_pdf": "UNION TEMPORAL",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "372 Dia(s)",
+        "valor_pdf": "372 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-12-31",
+        "valor_pdf": "2026-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x81624929e3e542720b8dffbdb1cffa2fd4bed2967cd58886924bf0d9c8bbcf23",
+    "bc_block_number": 38368095,
+    "bc_block_timestamp": "2026-05-14T18:19:11+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9347839",
+    "id_contrato": "CO1.PCCNTR.8742184",
+    "hash_sha256": "04b1cb6cb4890569e0338407f32f2ae1b397254f65dc43ce7295232a141ee8e8",
+    "timestamp_pipeline": "2026-05-14T18:19:11.892583+00:00",
+    "n_paginas": 4,
+    "ruta_local": "docs_descargados\\CO1.NTC.9347839.pdf",
+    "campos_pdf": {
+      "valor_pdf": "159.204.916.906,56",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta (con\nofertas)",
+      "duracion_pdf": "7 (Meses)",
+      "fecha_fin_pdf": "31/07/2026",
+      "proveedor_pdf": "¿Permitir visitas al lugar de",
+      "valor_numerico_pdf": 15920491690656
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "70,004,916,907",
+        "valor_pdf": "15,920,491,690,656",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$70,004,916,907 vs PDF=$15,920,491,690,656 (22641.96%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA (CON OFERTAS)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "CISP",
+        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Proveedor: sim=0% | API='CISP' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "7 Mes(es)",
+        "valor_pdf": "7 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-07-31",
+        "valor_pdf": "2026-07-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$70,004,916,907 vs PDF=$15,920,491,690,656 (22641.96%)",
+      "Proveedor: sim=0% | API='CISP' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x6d103752192a556eae1ae57877a038db73863b179dd6e60b6d808ee07b859b08",
+    "bc_block_number": 38368103,
+    "bc_block_timestamp": "2026-05-14T18:19:23+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.6892914",
+    "id_contrato": "CO1.PCCNTR.6903194",
+    "hash_sha256": "871e48e296fcf097ec89982b2b6edb2d1eb9022bb9a92bacf7d87a63abab935b",
+    "timestamp_pipeline": "2026-05-14T18:19:24.093684+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.6892914.pdf",
+    "campos_pdf": {
+      "valor_pdf": "154.426.910.753",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "15/10/2034",
+      "proveedor_pdf": "FINANCIERA DE",
+      "valor_numerico_pdf": 154426910753
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "154,426,910,753",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$154,426,910,753 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "FINANCIERA DE DESARROLLO TERRITORIAL S.A.",
+        "valor_pdf": "FINANCIERA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2034-10-15",
+        "valor_pdf": "2034-10-15",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$154,426,910,753 — API reporta cero pero el documento tiene un monto",
+      "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x7f17b5b30e8a2f9bd08ccbf8a46037a52dc8270be4b226b026c7ccf0644da694",
+    "bc_block_number": 38368111,
+    "bc_block_timestamp": "2026-05-14T18:19:35+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7981158",
+    "id_contrato": "CO1.PCCNTR.7771931",
+    "hash_sha256": "e942f3842cb83a4d2a0620ad79c53832b51e06b644171514a1cd74e284b958b5",
+    "timestamp_pipeline": "2026-05-14T18:22:10.319456+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.7981158.pdf",
+    "campos_pdf": {
+      "valor_pdf": "153.500.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "120 (Meses)",
+      "fecha_fin_pdf": "10/02/2035",
+      "proveedor_pdf": "BANCOLOMBIA",
+      "valor_numerico_pdf": 153500000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "153,500,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$153,500,000,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCOLOMBIA",
+        "valor_pdf": "BANCOLOMBIA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "120 Mes(es)",
+        "valor_pdf": "120 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2035-02-10",
+        "valor_pdf": "2035-02-10",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$153,500,000,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x47bd3dc3b1659b091623f3f24c9ff7aeb3dd515e98e523ca86c2b9c0a6f1897f",
+    "bc_block_number": 38368221,
+    "bc_block_timestamp": "2026-05-14T18:22:20+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9335978",
+    "id_contrato": "CO1.PCCNTR.8734336",
+    "hash_sha256": "51090a5e687b24e09011128dd0658f935cf288cd354f327ed998be03452497b2",
+    "timestamp_pipeline": "2026-05-14T18:22:20.951275+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9335978.pdf",
+    "campos_pdf": {
+      "valor_pdf": "149.095.646.497",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": null,
+      "fecha_fin_pdf": "29/12/2025",
+      "proveedor_pdf": "AGENCIA NACIONAL",
+      "valor_numerico_pdf": 149095646497
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "149,095,646,497",
+        "valor_pdf": "149,095,646,497",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "AGENCIA NACIONAL INMOBILIARIA VIRGILIO BARCO VARGAS",
+        "valor_pdf": "AGENCIA NACIONAL",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=33% | API='AGENCIA NACIONAL INMOBILIARIA VIRGILIO BARCO VARGAS' | PDF='AGENCIA NACIONAL'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "12 Mes(es)",
+        "valor_pdf": "None",
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-12-28",
+        "valor_pdf": "2025-12-29",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2025-12-29' (firma original) | API='2026-12-28' (estado vigente, +364 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=33% | API='AGENCIA NACIONAL INMOBILIARIA VIRGILIO BARCO VARGAS' | PDF='AGENCIA NACIONAL'",
+      "Fecha fin: PDF='2025-12-29' (firma original) | API='2026-12-28' (estado vigente, +364 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x5225c038d60e8bcb16a470588a3c1339a96ccbafef2f10f8ca9402a115b452d5",
+    "bc_block_number": 38368230,
+    "bc_block_timestamp": "2026-05-14T18:22:34+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.3895106",
+    "id_contrato": "CO1.PCCNTR.4530096",
+    "hash_sha256": "45bcd05897beea572de6a609631588f311b38e69f84ee7ec4f6b7773131082c0",
+    "timestamp_pipeline": "2026-05-14T18:22:34.519290+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.3895106.pdf",
+    "campos_pdf": {
+      "valor_pdf": "143.750.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "11 (Meses)",
+      "fecha_fin_pdf": "31/12/2023",
+      "proveedor_pdf": "ELIZABETH RAMIREZ",
+      "valor_numerico_pdf": 143750000000
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "143,750,000,000",
+        "valor_pdf": "143,750,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ELIZABETH RAMIREZ RODRIGUEZ",
+        "valor_pdf": "ELIZABETH RAMIREZ",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "11 Mes(es)",
+        "valor_pdf": "11 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-31",
+        "valor_pdf": "2023-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x80098fc12c395c3bd6a5691b00e38795877f106c35ea778611a1d86d2ed89a3a",
+    "bc_block_number": 38368237,
+    "bc_block_timestamp": "2026-05-14T18:22:44+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.4666902",
+    "id_contrato": "CO1.PCCNTR.5170237",
+    "hash_sha256": "145f25e4edccb5990a98031d7c8ad3fce7fa2d2b1b27ed18e4bef05f15ec15e1",
+    "timestamp_pipeline": "2026-05-14T18:22:44.988686+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.4666902.pdf",
+    "campos_pdf": {
+      "valor_pdf": "136.500.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "3 (Año(s))",
+      "fecha_fin_pdf": "28/06/2026",
+      "proveedor_pdf": "EFR SAS",
+      "valor_numerico_pdf": 136500000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "20,475,000,000",
+        "valor_pdf": "136,500,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$20,475,000,000 vs PDF=$136,500,000,000 (566.67%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "EFR SAS",
+        "valor_pdf": "EFR SAS",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "3 Año(s)",
+        "valor_pdf": "3 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-06-28",
+        "valor_pdf": "2026-06-28",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$20,475,000,000 vs PDF=$136,500,000,000 (566.67%)"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xccf55089b0c444a689253c45050dfab3f2c917860d58d5c34f79c0b29739c9a8",
+    "bc_block_number": 38368244,
+    "bc_block_timestamp": "2026-05-14T18:22:55+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7206721",
+    "id_contrato": "CO1.PCCNTR.7143560",
+    "hash_sha256": "2dd5a86909a196e49fecfc1920de64c387894238d00740a2949cf1b4686e5cd6",
+    "timestamp_pipeline": "2026-05-14T18:25:24.159061+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.7206721.pdf",
+    "campos_pdf": {
+      "valor_pdf": "131.107.663.434",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "18 (Meses)",
+      "fecha_fin_pdf": "18/06/2026",
+      "proveedor_pdf": "FINANCIERA DE",
+      "valor_numerico_pdf": 131107663434
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "133,694,105,890",
+        "valor_pdf": "131,107,663,434",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Valor: API=$133,694,105,890 vs PDF=$131,107,663,434 (1.93%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "FINANCIERA DE DESARROLLO TERRITORIAL S.A.",
+        "valor_pdf": "FINANCIERA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "18 Mes(es)",
+        "valor_pdf": "18 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-06-18",
+        "valor_pdf": "2026-06-18",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$133,694,105,890 vs PDF=$131,107,663,434 (1.93%)",
+      "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x3d444c86e548c0528fee0c4f01197ce4173624af667632648a65a78cff885b2e",
+    "bc_block_number": 38368351,
+    "bc_block_timestamp": "2026-05-14T18:25:35+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.3513034",
+    "id_contrato": "CO1.PCCNTR.4207507",
+    "hash_sha256": "3da791151122f3c612902b5bda516f230561c202c6f2b6f5fc3a143dcdd5574d",
+    "timestamp_pipeline": "2026-05-14T18:25:36.109872+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.3513034.pdf",
+    "campos_pdf": {
+      "valor_pdf": "126.560.409.994",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "7 (Año(s))",
+      "fecha_fin_pdf": "10/11/2022",
+      "proveedor_pdf": "BANCO BILBAO VIZCAYA",
+      "valor_numerico_pdf": 126560409994
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "126,560,409,994",
+        "valor_pdf": "126,560,409,994",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (OFICIAL)",
+        "valor_pdf": "BANCO BILBAO VIZCAYA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "7 Año(s)",
+        "valor_pdf": "7 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2029-11-10",
+        "valor_pdf": "2022-11-10",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2022-11-10' (firma original) | API='2029-11-10' (estado vigente, +2557 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Fecha fin: PDF='2022-11-10' (firma original) | API='2029-11-10' (estado vigente, +2557 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x51190553d21d0570c72b1fc87a942b75b904e7877901ebbb04891eb91ac5b050",
+    "bc_block_number": 38368358,
+    "bc_block_timestamp": "2026-05-14T18:25:46+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9053834",
+    "id_contrato": "CO1.PCCNTR.8534841",
+    "hash_sha256": "2fc5f24c5aa0687a0e7d81770c391700b6bdd2472f6df658dcfaf9ff0367831f",
+    "timestamp_pipeline": "2026-05-14T18:25:46.493681+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9053834.pdf",
+    "campos_pdf": {
+      "valor_pdf": "120.290.392.471",
+      "numero_proceso_pdf": "245863-2025",
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "9 (Meses)",
+      "fecha_fin_pdf": "31/07/2026",
+      "proveedor_pdf": "DISTRITO ESPECIAL DE",
+      "valor_numerico_pdf": 120290392471
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "7,796,826,850",
+        "valor_pdf": "120,290,392,471",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$7,796,826,850 vs PDF=$120,290,392,471 (1442.81%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+        "valor_pdf": "DISTRITO ESPECIAL DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=33% | API='DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN' | PDF='DISTRITO ESPECIAL DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "9 Mes(es)",
+        "valor_pdf": "9 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-07-31",
+        "valor_pdf": "2026-07-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$7,796,826,850 vs PDF=$120,290,392,471 (1442.81%)",
+      "Proveedor: sim=33% | API='DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN' | PDF='DISTRITO ESPECIAL DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x9fe850801526728725dcee50193b9831a1f1efd2a1069cdc2177d52a15008019",
+    "bc_block_number": 38368365,
+    "bc_block_timestamp": "2026-05-14T18:25:56+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137232,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9081295",
+    "id_contrato": "CO1.PCCNTR.8554684",
+    "hash_sha256": "a54a2b4eb96b17d031d1074743737374484e56cee245446dc2e1d36295dec5f3",
+    "timestamp_pipeline": "2026-05-14T18:31:23.878996+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9081295.pdf",
+    "campos_pdf": {
+      "valor_pdf": "120.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta (con\nofertas)",
+      "duracion_pdf": "733 (Días)",
+      "fecha_fin_pdf": "10/12/2027",
+      "proveedor_pdf": "AGENCIA NACIONAL",
+      "valor_numerico_pdf": 120000000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 3,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "35,000,000,000",
+        "valor_pdf": "120,000,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$35,000,000,000 vs PDF=$120,000,000,000 (242.86%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA (CON OFERTAS)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "AGENCIA NACIONAL INMOBILIARIA VIRGILIO BARCO VARGAS",
+        "valor_pdf": "AGENCIA NACIONAL",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=33% | API='AGENCIA NACIONAL INMOBILIARIA VIRGILIO BARCO VARGAS' | PDF='AGENCIA NACIONAL'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "760 Dia(s)",
+        "valor_pdf": "733 (Días)",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Duración: API='760 Dia(s)' vs PDF='733 (Días)'"
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2027-12-10",
+        "valor_pdf": "2027-12-10",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$35,000,000,000 vs PDF=$120,000,000,000 (242.86%)",
+      "Proveedor: sim=33% | API='AGENCIA NACIONAL INMOBILIARIA VIRGILIO BARCO VARGAS' | PDF='AGENCIA NACIONAL'",
+      "Duración: API='760 Dia(s)' vs PDF='733 (Días)'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x04cf65572fe2661d2d27ebadb2f18623e905b62c253addb11d14f307dd7b3eff",
+    "bc_block_number": 38368590,
+    "bc_block_timestamp": "2026-05-14T18:31:34+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.6948913",
+    "id_contrato": "CO1.PCCNTR.6949984",
+    "hash_sha256": "c78c2cbc9951b8dced4747bcaa06a8ca47f5f993491a26322a0218e2c09c208d",
+    "timestamp_pipeline": "2026-05-14T18:27:11.664972+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.6948913.pdf",
+    "campos_pdf": {
+      "valor_pdf": "118.889.017.436",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "25/10/2033",
+      "proveedor_pdf": "¿Permitir visitas al lugar de",
+      "valor_numerico_pdf": 118889017436
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "118,889,017,436",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$118,889,017,436 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCO AGRARIO DE COLOMBIA S.A.",
+        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Proveedor: sim=0% | API='BANCO AGRARIO DE COLOMBIA S.A.' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2033-10-25",
+        "valor_pdf": "2033-10-25",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$118,889,017,436 — API reporta cero pero el documento tiene un monto",
+      "Proveedor: sim=0% | API='BANCO AGRARIO DE COLOMBIA S.A.' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x1be3e7dca2c98c22d471dc180b8762f04b744e8201a6b68129100bdbf73b64ed",
+    "bc_block_number": 38368425,
+    "bc_block_timestamp": "2026-05-14T18:27:26+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2045891",
+    "id_contrato": "CO1.PCCNTR.2605118",
+    "hash_sha256": "3efa1dd2aa0ea111d25a0ae74565c8f242429a7f1e1aea7041e404ee37a488ed",
+    "timestamp_pipeline": "2026-05-14T18:31:36.852586+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.2045891.pdf",
+    "campos_pdf": {
+      "valor_pdf": "114.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "20/06/2031",
+      "proveedor_pdf": "BANCO POPULAR",
+      "valor_numerico_pdf": 114000000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "114,000,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$114,000,000,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCO POPULAR",
+        "valor_pdf": "BANCO POPULAR",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2031-06-20",
+        "valor_pdf": "2031-06-20",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$114,000,000,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x4e6835ec8122aa0ca0c5adb4bc4294dc3ba1e0bce937252e6bdd56873905524d",
+    "bc_block_number": 38368599,
+    "bc_block_timestamp": "2026-05-14T18:31:47+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2394960",
+    "id_contrato": "CO1.PCCNTR.3035967",
+    "hash_sha256": "df9a065b6e6113103b249faf5d4401d68f4387b00fed113c78a8d07478a46451",
+    "timestamp_pipeline": "2026-05-14T18:31:48.094240+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.2394960.pdf",
+    "campos_pdf": {
+      "valor_pdf": "100.653.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "6 (Año(s))",
+      "fecha_fin_pdf": "31/12/2027",
+      "proveedor_pdf": "GOBERNACION DEL",
+      "valor_numerico_pdf": 100653000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "100,653,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$100,653,000,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "GOBERNACION DEL CASANARE",
+        "valor_pdf": "GOBERNACION DEL",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "6 Año(s)",
+        "valor_pdf": "6 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2027-12-31",
+        "valor_pdf": "2027-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$100,653,000,000 — API reporta cero pero el documento tiene un monto"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x383168b8917202244b875b91e53637442bd86f41c67ce9dc65e64dfe8d999b40",
+    "bc_block_number": 38368606,
+    "bc_block_timestamp": "2026-05-14T18:31:58+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2800381",
+    "id_contrato": "CO1.PCCNTR.3535878",
+    "hash_sha256": "93abbaf31a676b2f1def954bf4ca79b877916d80beb74b86fa1a3abf35cba14d",
+    "timestamp_pipeline": "2026-05-14T18:31:58.576934+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.2800381.pdf",
+    "campos_pdf": {
+      "valor_pdf": "100.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta (con\nofertas)",
+      "duracion_pdf": "11 (Meses)",
+      "fecha_fin_pdf": "15/12/2022",
+      "proveedor_pdf": "FINANCIERA DE",
+      "valor_numerico_pdf": 100000000000
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "100,000,000,000",
+        "valor_pdf": "100,000,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA (CON OFERTAS)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "FINANCIERA DE DESARROLLO TERRITORIAL S.A.",
+        "valor_pdf": "FINANCIERA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "11 Mes(es)",
+        "valor_pdf": "11 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2022-12-15",
+        "valor_pdf": "2022-12-15",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x5ede1589fb81cdf6879e3e85cd149b9a694b6b20e4527a7bbbb6761e165a6133",
+    "bc_block_number": 38368613,
+    "bc_block_timestamp": "2026-05-14T18:32:08+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7015693",
+    "id_contrato": "CO1.PCCNTR.7001232",
+    "hash_sha256": "c308b72e93fa730de60681905b827e32714dd46298d59763f11e035ab7c66693",
+    "timestamp_pipeline": "2026-05-14T18:32:09.031011+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.7015693.pdf",
+    "campos_pdf": {
+      "valor_pdf": "97.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\nrégimen especial",
+      "duracion_pdf": "120 (Meses)",
+      "fecha_fin_pdf": "31/10/2024",
+      "proveedor_pdf": "BANCOLOMBIA",
+      "valor_numerico_pdf": 97000000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 3,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "0",
+        "valor_pdf": "97,000,000,000",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$0 vs PDF=$97,000,000,000 — API reporta cero pero el documento tiene un monto"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN RÉGIMEN ESPECIAL",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Modalidad: API='CONTRATACIÓN DIRECTA' vs PDF='CONTRATACIÓN RÉGIMEN ESPECIAL'"
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCOLOMBIA",
+        "valor_pdf": "BANCOLOMBIA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "120 Mes(es)",
+        "valor_pdf": "120 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2035-10-08",
+        "valor_pdf": "2024-10-31",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2024-10-31' (firma original) | API='2035-10-08' (estado vigente, +3994 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$0 vs PDF=$97,000,000,000 — API reporta cero pero el documento tiene un monto",
+      "Modalidad: API='CONTRATACIÓN DIRECTA' vs PDF='CONTRATACIÓN RÉGIMEN ESPECIAL'",
+      "Fecha fin: PDF='2024-10-31' (firma original) | API='2035-10-08' (estado vigente, +3994 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xb2a97db6c666c79bfaf8d0390fd0a6ad9211d2355e88e30d96a656892f1d5e7c",
+    "bc_block_number": 38368619,
+    "bc_block_timestamp": "2026-05-14T18:32:17+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.4401238",
+    "id_contrato": "CO1.PCCNTR.4946293",
+    "hash_sha256": "36fea1922ee16ea22eaa5631eaa144fefe9123e831c6a176599300de7fcf0091",
+    "timestamp_pipeline": "2026-05-14T18:37:14.291257+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.4401238.pdf",
+    "campos_pdf": {
+      "valor_pdf": "94.454.166.586",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "8 (Meses)",
+      "fecha_fin_pdf": "31/12/2023",
+      "proveedor_pdf": "(Secretaría Distrital de",
+      "valor_numerico_pdf": 94454166586
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "94,454,166,586",
+        "valor_pdf": "94,454,166,586",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "(SECRETARÍA DISTRITAL DE INTEGRACIÓN SOCIAL)",
+        "valor_pdf": "(SECRETARÍA DISTRITAL DE",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "8 Mes(es)",
+        "valor_pdf": "8 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-31",
+        "valor_pdf": "2023-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x6ee0284dcc8156515c871403101011f00b2514dd10dbb2d88e5a0c8ce82b9fa9",
+    "bc_block_number": 38368823,
+    "bc_block_timestamp": "2026-05-14T18:37:23+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137196,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2474113",
+    "id_contrato": "CO1.PCCNTR.3143166",
+    "hash_sha256": "0d1b951e64349c04ff84692177175a5b31fa9c8d4a4e5d7aa5d963ee7816a97e",
+    "timestamp_pipeline": "2026-05-14T18:37:24.018112+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.2474113.pdf",
+    "campos_pdf": {
+      "valor_pdf": "90.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "24/12/2021",
+      "proveedor_pdf": "BANCO BILBAO VIZCAYA",
+      "valor_numerico_pdf": 90000000000
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "90,000,000,000",
+        "valor_pdf": "90,000,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (OFICIAL)",
+        "valor_pdf": "BANCO BILBAO VIZCAYA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2031-12-23",
+        "valor_pdf": "2021-12-24",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2021-12-24' (firma original) | API='2031-12-23' (estado vigente, +3651 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Fecha fin: PDF='2021-12-24' (firma original) | API='2031-12-23' (estado vigente, +3651 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xe67ef44ec19fa0569151038f86944ea834cc4876e624852ac5d99a6eac8ba771",
+    "bc_block_number": 38368830,
+    "bc_block_timestamp": "2026-05-14T18:37:34+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9090924",
+    "id_contrato": "CO1.PCCNTR.8563253",
+    "hash_sha256": "51655a60f9c139aa69b2d9536e95e05e6c0c0cb613ec50ce2dc435978237c71b",
+    "timestamp_pipeline": "2026-05-14T18:37:34.589738+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9090924.pdf",
+    "campos_pdf": {
+      "valor_pdf": "88.218.710.950",
+      "numero_proceso_pdf": "46144-2025",
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "227 (Días)",
+      "fecha_fin_pdf": "31/07/2026",
+      "proveedor_pdf": "DISTRITO ESPECIAL",
+      "valor_numerico_pdf": 88218710950
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "88,218,710,950",
+        "valor_pdf": "88,218,710,950",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "DISTRITO ESPECIAL INDUSTRIAL Y PORTUARIO DE BARRANQUILLA",
+        "valor_pdf": "DISTRITO ESPECIAL",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "227 Dia(s)",
+        "valor_pdf": "227 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-07-31",
+        "valor_pdf": "2026-07-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x90d8fab04452a4170644eebbd8bc6a5244f0d24fe3d7de9a525791fb6acc1445",
+    "bc_block_number": 38368837,
+    "bc_block_timestamp": "2026-05-14T18:37:44+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2392053",
+    "id_contrato": "CO1.PCCNTR.3032387",
+    "hash_sha256": "de3e6dd5e34e30af8cde46ea56e20627bd421cf2dabae350d7e2ff57272ca33d",
+    "timestamp_pipeline": "2026-05-14T18:37:44.995915+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.2392053.pdf",
+    "campos_pdf": {
+      "valor_pdf": "85.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "78 (Meses)",
+      "fecha_fin_pdf": "31/05/2028",
+      "proveedor_pdf": "MUNICIPIO DE ITAGUI",
+      "valor_numerico_pdf": 85000000000
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "85,000,000,000",
+        "valor_pdf": "85,000,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "MUNICIPIO DE ITAGUI",
+        "valor_pdf": "MUNICIPIO DE ITAGUI",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "79 Mes(es)",
+        "valor_pdf": "78 (Meses)",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Duración: API='79 Mes(es)' vs PDF='78 (Meses)'"
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2028-05-31",
+        "valor_pdf": "2028-05-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Duración: API='79 Mes(es)' vs PDF='78 (Meses)'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xf290c476faba1a6ef2e51c4f33fb0e4d424be0c9cb0ecef70fa5975fe356a0e7",
+    "bc_block_number": 38368844,
+    "bc_block_timestamp": "2026-05-14T18:37:55+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9924239",
+    "id_contrato": "CO1.PCCNTR.9292162",
+    "hash_sha256": "a2a02677181b767a6a789635b25b8951f13adab0ad7005db1a999b8098555d0c",
+    "timestamp_pipeline": "2026-05-14T18:42:01.551374+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9924239.pdf",
+    "campos_pdf": {
+      "valor_pdf": "80.654.152.400",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "10 (Meses)",
+      "fecha_fin_pdf": "30/01/2026",
+      "proveedor_pdf": "ASOCIACION",
+      "valor_numerico_pdf": 80654152400
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "80,526,152,400",
+        "valor_pdf": "80,654,152,400",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ASOCIACION SUPRADEPARTAMENTAL DE MUNICIPIOS PARA EL PROGRESO",
+        "valor_pdf": "ASOCIACION",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=20% | API='ASOCIACION SUPRADEPARTAMENTAL DE MUNICIPIOS PARA EL PROGRESO' | PDF='ASOCIACION'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Mes(es)",
+        "valor_pdf": "10 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-12-10",
+        "valor_pdf": "2026-01-30",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2026-01-30' (firma original) | API='2026-12-10' (estado vigente, +314 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=20% | API='ASOCIACION SUPRADEPARTAMENTAL DE MUNICIPIOS PARA EL PROGRESO' | PDF='ASOCIACION'",
+      "Fecha fin: PDF='2026-01-30' (firma original) | API='2026-12-10' (estado vigente, +314 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x1bd6ad91b60d3fc91c71e7ddab6435c7ffbcf82b4ae3a31597b59b968a26c0ab",
+    "bc_block_number": 38369015,
+    "bc_block_timestamp": "2026-05-14T18:42:11+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.1875161",
+    "id_contrato": "CO1.PCCNTR.2387293",
+    "hash_sha256": "5e86b0acdad69b35d9f960c1c53dfdc600ca41ed50b9170a3967e5f1d29fd0c2",
+    "timestamp_pipeline": "2026-05-14T18:42:12.162783+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.1875161.pdf",
+    "campos_pdf": {
+      "valor_pdf": "79.982.811.133,96",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "26/03/2021",
+      "proveedor_pdf": "Banco de Occidente SA",
+      "valor_numerico_pdf": 7998281113396
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "79,982,811,133",
+        "valor_pdf": "7,998,281,113,396",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$79,982,811,133 vs PDF=$7,998,281,113,396 (9900.00%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCO OCCIDENTE",
+        "valor_pdf": "BANCO DE OCCIDENTE SA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2031-03-26",
+        "valor_pdf": "2021-03-26",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2021-03-26' (firma original) | API='2031-03-26' (estado vigente, +3652 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$79,982,811,133 vs PDF=$7,998,281,113,396 (9900.00%)",
+      "Fecha fin: PDF='2021-03-26' (firma original) | API='2031-03-26' (estado vigente, +3652 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xadf53742eeb1107faf02617bcb9d8c13123caa8dab33a8e5e8e277a0659d1c29",
+    "bc_block_number": 38369021,
+    "bc_block_timestamp": "2026-05-14T18:42:20+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137232,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2393304",
+    "id_contrato": "CO1.PCCNTR.3034029",
+    "hash_sha256": "35c9052e55d2ddfd595de2f210c0ea61c2c06d374b2caa52cd0a674d05679e56",
+    "timestamp_pipeline": "2026-05-14T18:42:20.959070+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.2393304.pdf",
+    "campos_pdf": {
+      "valor_pdf": "78.675.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "2604 (Días)",
+      "fecha_fin_pdf": "31/12/2029",
+      "proveedor_pdf": "GOBERNACION DE SUCRE",
+      "valor_numerico_pdf": 78675000000
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "78,675,000,000",
+        "valor_pdf": "78,675,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "GOBERNACION DE SUCRE",
+        "valor_pdf": "GOBERNACION DE SUCRE",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "2604 Dia(s)",
+        "valor_pdf": "2604 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2029-12-31",
+        "valor_pdf": "2029-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xfce822540f8053d8db0af0c3f1abac3552912bce96547ed757843ace239b0fda",
+    "bc_block_number": 38369028,
+    "bc_block_timestamp": "2026-05-14T18:42:31+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2463111",
+    "id_contrato": "CO1.PCCNTR.3126321",
+    "hash_sha256": "57b951bcac03200b7281ddcf9f5ff9e4d5edff97596377f9bfcb39386f55ba6c",
+    "timestamp_pipeline": "2026-05-14T18:42:31.492013+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.2463111.pdf",
+    "campos_pdf": {
+      "valor_pdf": "76.050.751.500",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "48 (Meses)",
+      "fecha_fin_pdf": "17/12/2023",
+      "proveedor_pdf": "BANCOLOMBIA",
+      "valor_numerico_pdf": 76050751500
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "76,050,751,500",
+        "valor_pdf": "76,050,751,500",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCOLOMBIA",
+        "valor_pdf": "BANCOLOMBIA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "48 Mes(es)",
+        "valor_pdf": "48 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-12-17",
+        "valor_pdf": "2023-12-17",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xe992a5f0371ab6871732978d3347659b42dca94f40c0a0d783f48183a92de9e7",
+    "bc_block_number": 38369067,
+    "bc_block_timestamp": "2026-05-14T18:43:29+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.1961649",
+    "id_contrato": "CO1.PCCNTR.2497928",
+    "hash_sha256": "43d261a97597eb9cd92d062363d25428205d884e01d4a182c4457fb80beca1d8",
+    "timestamp_pipeline": "2026-05-14T18:43:30.027096+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.1961649.pdf",
+    "campos_pdf": {
+      "valor_pdf": "75.265.340.600",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": null,
+      "proveedor_pdf": "FINANCIERA DE",
+      "valor_numerico_pdf": 75265340600
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "75,265,340,600",
+        "valor_pdf": "75,265,340,600",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "FINANCIERA DE DESARROLLO TERRITORIAL S.A.",
+        "valor_pdf": "FINANCIERA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2031-08-26",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x194b337f3efe9b915e1b4860ae16374c60483231d8e3ab7fcdd1755be0bf0512",
+    "bc_block_number": 38369074,
+    "bc_block_timestamp": "2026-05-14T18:43:40+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8865074",
+    "id_contrato": "CO1.PCCNTR.8392326",
+    "hash_sha256": "809b695ad9bd7f78f914f1b5b79c322f1543308416c444f65b088fbefa26b603",
+    "timestamp_pipeline": "2026-05-14T18:53:55.769472+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8865074.pdf",
+    "campos_pdf": {
+      "valor_pdf": "74.880.693.183",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "12 (Meses)",
+      "fecha_fin_pdf": "30/09/2026",
+      "proveedor_pdf": "ETB SA ESP",
+      "valor_numerico_pdf": 74880693183
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "74,880,693,183",
+        "valor_pdf": "74,880,693,183",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ETB SA ESP",
+        "valor_pdf": "ETB SA ESP",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "12 Mes(es)",
+        "valor_pdf": "12 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-09-30",
+        "valor_pdf": "2026-09-30",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xc5c659d28086cd5e4d32b1a2cd1153187e29f77a81af44a9d5838d3243060914",
+    "bc_block_number": 38369493,
+    "bc_block_timestamp": "2026-05-14T18:54:08+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7246486",
+    "id_contrato": "CO1.PCCNTR.7177124",
+    "hash_sha256": "255946c7cbddc1c834e136a4ee43a1237c08f6e3687b2fa06970ee7b12383a04",
+    "timestamp_pipeline": "2026-05-14T18:54:09.032326+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.7246486.pdf",
+    "campos_pdf": {
+      "valor_pdf": "74.657.705.140",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "18 (Meses)",
+      "fecha_fin_pdf": "27/06/2026",
+      "proveedor_pdf": "FINANCIERA DE",
+      "valor_numerico_pdf": 74657705140
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "74,657,705,140",
+        "valor_pdf": "74,657,705,140",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "FINANCIERA DE DESARROLLO TERRITORIAL S.A.",
+        "valor_pdf": "FINANCIERA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "18 Mes(es)",
+        "valor_pdf": "18 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-06-30",
+        "valor_pdf": "2026-06-27",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2026-06-27' (firma original) | API='2026-06-30' (estado vigente, +3 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'",
+      "Fecha fin: PDF='2026-06-27' (firma original) | API='2026-06-30' (estado vigente, +3 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xa006bbe1a4b97acbe061736c50cefddd55b3392c9eafb13d8985d5068b7032ed",
+    "bc_block_number": 38369500,
+    "bc_block_timestamp": "2026-05-14T18:54:19+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.2038725",
+    "id_contrato": "CO1.PCCNTR.2598015",
+    "hash_sha256": "4427189e1d30b0acf51844129b218051a0af1088d722d9eb9234ac18c693cccf",
+    "timestamp_pipeline": "2026-05-14T18:54:19.491390+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.2038725.pdf",
+    "campos_pdf": {
+      "valor_pdf": "0",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "244 (Días)",
+      "fecha_fin_pdf": "31/12/2021",
+      "proveedor_pdf": "SECRETARIA DE EDUCACION",
+      "valor_numerico_pdf": 0
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "74,311,373,060",
+        "valor_pdf": "0",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$74,311,373,060 vs PDF=$0 (100.00%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "SECRETARIA DE EDUCACION DEL DISTRITO",
+        "valor_pdf": "SECRETARIA DE EDUCACION",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "244 Dia(s)",
+        "valor_pdf": "244 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2021-12-31",
+        "valor_pdf": "2021-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$74,311,373,060 vs PDF=$0 (100.00%)"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xfacff60ef2eef35eaa83dfb51d6c2724e4f94a4056f568f23b9dcf07a31ba467",
+    "bc_block_number": 38369506,
+    "bc_block_timestamp": "2026-05-14T18:54:28+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7217941",
+    "id_contrato": "CO1.PCCNTR.7168118",
+    "hash_sha256": "a55c84a39ce09ea74a3c9c69dfbf890dad9fc814ecd3be92aec9ac2b9370124f",
+    "timestamp_pipeline": "2026-05-14T18:54:28.537235+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.7217941.pdf",
+    "campos_pdf": {
+      "valor_pdf": "73.321.987.433",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "35 (Meses)",
+      "fecha_fin_pdf": "30/11/2027",
+      "proveedor_pdf": "INSTITUTO PARA EL",
+      "valor_numerico_pdf": 73321987433
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "73,321,987,433",
+        "valor_pdf": "73,321,987,433",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "INSTITUTO PARA EL DESARROLLO DE ANTIOQUIA IDEA",
+        "valor_pdf": "INSTITUTO PARA EL",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "35 Mes(es)",
+        "valor_pdf": "35 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2027-11-30",
+        "valor_pdf": "2027-11-30",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x7495a9c8f310e91b2e6b94797b2fafa6097cc003f9da832fa66ac57d77bb0afd",
+    "bc_block_number": 38369513,
+    "bc_block_timestamp": "2026-05-14T18:54:38+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8465923",
+    "id_contrato": "CO1.PCCNTR.8104756",
+    "hash_sha256": "78543683f9b56b37a21a7eeb91661840ac2ce5cac160705f4a4aa3e833deebdf",
+    "timestamp_pipeline": "2026-05-14T19:03:37.968729+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.8465923.pdf",
+    "campos_pdf": {
+      "valor_pdf": "72.079.316.322",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación\nrégimen especial",
+      "duracion_pdf": "406 (Días)",
+      "fecha_fin_pdf": "31/08/2026",
+      "proveedor_pdf": "INVIAS",
+      "valor_numerico_pdf": 72079316322
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "72,079,316,322",
+        "valor_pdf": "72,079,316,322",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN RÉGIMEN ESPECIAL",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Modalidad: API='CONTRATACIÓN DIRECTA' vs PDF='CONTRATACIÓN RÉGIMEN ESPECIAL'"
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "INVIAS",
+        "valor_pdf": "INVIAS",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "406 Dia(s)",
+        "valor_pdf": "406 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-08-31",
+        "valor_pdf": "2026-08-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Modalidad: API='CONTRATACIÓN DIRECTA' vs PDF='CONTRATACIÓN RÉGIMEN ESPECIAL'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xf7da358b2b695242db84e12de2848b36fe9d2c2721c7f2cd891f5adb76672c4e",
+    "bc_block_number": 38369881,
+    "bc_block_timestamp": "2026-05-14T19:03:50+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.7964425",
+    "id_contrato": "CO1.PCCNTR.7758217",
+    "hash_sha256": "313d5aca1b6a9ffc23f53ff9949fbe95d45ecd3a6cc57dd92c691b8e3420f014",
+    "timestamp_pipeline": "2026-05-14T19:03:50.890925+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.7964425.pdf",
+    "campos_pdf": {
+      "valor_pdf": "70.763.818.954",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "963 (Días)",
+      "fecha_fin_pdf": "30/11/2027",
+      "proveedor_pdf": "ADMINISTRADORA",
+      "valor_numerico_pdf": 70763818954
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "70,763,818,954",
+        "valor_pdf": "70,763,818,954",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "ADMINISTRADORA COLOMBIANA DE PENSIONES COLPENSIONES",
+        "valor_pdf": "ADMINISTRADORA",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='ADMINISTRADORA COLOMBIANA DE PENSIONES COLPENSIONES' | PDF='ADMINISTRADORA'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "963 Dia(s)",
+        "valor_pdf": "963 (Días)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2027-11-30",
+        "valor_pdf": "2027-11-30",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=25% | API='ADMINISTRADORA COLOMBIANA DE PENSIONES COLPENSIONES' | PDF='ADMINISTRADORA'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x22bf8059e880931bb101ef610b79dcafe6f7e65f9e232d83a753c90a948fbf0f",
+    "bc_block_number": 38369887,
+    "bc_block_timestamp": "2026-05-14T19:03:59+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.9091889",
+    "id_contrato": "CO1.PCCNTR.8564689",
+    "hash_sha256": "a0b9f92ed129d96fa216285275aafcadc4fda2414122ac5e6f6a315b7ee94f28",
+    "timestamp_pipeline": "2026-05-14T19:03:59.894531+00:00",
+    "n_paginas": 3,
+    "ruta_local": "docs_descargados\\CO1.NTC.9091889.pdf",
+    "campos_pdf": {
+      "valor_pdf": "70.000.000.000",
+      "numero_proceso_pdf": "4151.010.27.1.1075-2025",
+      "tipo_proceso_pdf": "Contratación\ndirecta",
+      "duracion_pdf": "13 (Meses)",
+      "fecha_fin_pdf": "31/12/2026",
+      "proveedor_pdf": "SECRETARIA DE",
+      "valor_numerico_pdf": 70000000000
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "70,000,000,000",
+        "valor_pdf": "70,000,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "SECRETARIA DE INFRAESTRUCTURA - GOBERNACION DEL VALLE",
+        "valor_pdf": "SECRETARIA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=20% | API='SECRETARIA DE INFRAESTRUCTURA - GOBERNACION DEL VALLE' | PDF='SECRETARIA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "13 Mes(es)",
+        "valor_pdf": "13 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2026-12-31",
+        "valor_pdf": "2026-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=20% | API='SECRETARIA DE INFRAESTRUCTURA - GOBERNACION DEL VALLE' | PDF='SECRETARIA DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x1f1be9905e90ff9907e93322d756e6275874da5fe78f4d3c2022d85ab50ddf9b",
+    "bc_block_number": 38369894,
+    "bc_block_timestamp": "2026-05-14T19:04:10+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.1627170",
+    "id_contrato": "CO1.PCCNTR.2089696",
+    "hash_sha256": "38d8354926548bbe876951287157c602916f386505c25bf8e97cc98e72ace972",
+    "timestamp_pipeline": "2026-05-14T19:04:10.556242+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.1627170.pdf",
+    "campos_pdf": {
+      "valor_pdf": "70.000.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "21/12/2030",
+      "proveedor_pdf": "FINANCIERA DE",
+      "valor_numerico_pdf": 70000000000
+    },
+    "clasificacion": "ADVERTENCIA",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "70,000,000,000",
+        "valor_pdf": "70,000,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "FINANCIERA DE DESARROLLO TERRITORIAL S.A.",
+        "valor_pdf": "FINANCIERA DE",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2030-12-29",
+        "valor_pdf": "2030-12-21",
+        "resultado": "ADVERTENCIA",
+        "detalle": "Fecha fin: PDF='2030-12-21' (firma original) | API='2030-12-29' (estado vigente, +8 días) | Probable prórroga registrada en la API"
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=25% | API='FINANCIERA DE DESARROLLO TERRITORIAL S.A.' | PDF='FINANCIERA DE'",
+      "Fecha fin: PDF='2030-12-21' (firma original) | API='2030-12-29' (estado vigente, +8 días) | Probable prórroga registrada en la API"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x5cc835984c9983dab3f69a2e86bac03b1fe0654cfb180934b931092f7db88919",
+    "bc_block_number": 38369901,
+    "bc_block_timestamp": "2026-05-14T19:04:20+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.1814819",
+    "id_contrato": "CO1.PCCNTR.2334667",
+    "hash_sha256": "7d48ba46311876e6ad838c9ff6808d9ed8a89e09f773b9530b92feeea916042d",
+    "timestamp_pipeline": "2026-05-14T19:04:21.062458+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.1814819.pdf",
+    "campos_pdf": {
+      "valor_pdf": "65.132.168.638",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Meses)",
+      "fecha_fin_pdf": "31/12/2021",
+      "proveedor_pdf": "SERVICIO GEOLOGICO",
+      "valor_numerico_pdf": 65132168638
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "65,132,168,638",
+        "valor_pdf": "65,132,168,638",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "SERVICIO GEOLOGICO COLOMBIANO",
+        "valor_pdf": "SERVICIO GEOLOGICO",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Mes(es)",
+        "valor_pdf": "10 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2021-12-31",
+        "valor_pdf": "2021-12-31",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xab1b23eea3561d4d0e5fafedfa8ec30be07ee9aa1dbf22bb74d6cc9b8c8f5669",
+    "bc_block_number": 38369908,
+    "bc_block_timestamp": "2026-05-14T19:04:31+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137220,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.4835170",
+    "id_contrato": "CO1.PCCNTR.5291666",
+    "hash_sha256": "7d6fb1cdeab2bac74c91eefc29542f108ca245fb25a794eeb27300e9868df2f6",
+    "timestamp_pipeline": "2026-05-14T19:08:43.194482+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.4835170.pdf",
+    "campos_pdf": {
+      "valor_pdf": "64.885.000.000",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "10 (Año(s))",
+      "fecha_fin_pdf": "11/08/2033",
+      "proveedor_pdf": "BANCO BILBAO VIZCAYA",
+      "valor_numerico_pdf": 64885000000
+    },
+    "clasificacion": "CONSISTENTE",
+    "n_inconsistencias": 0,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "64,885,000,000",
+        "valor_pdf": "64,885,000,000",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (OFICIAL)",
+        "valor_pdf": "BANCO BILBAO VIZCAYA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "10 Año(s)",
+        "valor_pdf": "10 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2033-08-11",
+        "valor_pdf": "2033-08-11",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x4ad9c85a6179bed41f4e9680c79599bf303d7d07d6dd1943d04f20fe1dccfa67",
+    "bc_block_number": 38370083,
+    "bc_block_timestamp": "2026-05-14T19:08:53+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137208,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.4361525",
+    "id_contrato": "CO1.PCCNTR.5286020",
+    "hash_sha256": "42f3fc3d1a3e36b9f260ede3f63b3c98b4b5b2f6bf38c3681a4b259837575268",
+    "timestamp_pipeline": "2026-05-14T19:08:54.115195+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.4361525.pdf",
+    "campos_pdf": {
+      "valor_pdf": "647.943.802,8",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "4 (Meses)",
+      "fecha_fin_pdf": null,
+      "proveedor_pdf": "¿Permitir visitas al lugar de",
+      "valor_numerico_pdf": 6479438028
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 2,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "64,794,380,280",
+        "valor_pdf": "6,479,438,028",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Valor: API=$64,794,380,280 vs PDF=$6,479,438,028 (90.00%)"
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "CARLOS MAURICIO PEREZ CASTRO",
+        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Proveedor: sim=0% | API='CARLOS MAURICIO PEREZ CASTRO' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "4 Mes(es)",
+        "valor_pdf": "4 (Meses)",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2023-09-08",
+        "valor_pdf": null,
+        "resultado": "DATO_AUSENTE",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Valor: API=$64,794,380,280 vs PDF=$6,479,438,028 (90.00%)",
+      "Proveedor: sim=0% | API='CARLOS MAURICIO PEREZ CASTRO' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0xfb69305db4156f653c5935ab4640fc6dc32e952e17082bcb5426aad18435adbf",
+    "bc_block_number": 38370089,
+    "bc_block_timestamp": "2026-05-14T19:09:02+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  },
+  {
+    "notice_uid": "CO1.NTC.8829497",
+    "id_contrato": "CO1.PCCNTR.8362676",
+    "hash_sha256": "d959ea12c6bbc8397563f4ebfe7e7956547bf587e070c16c700bf9e5f779a929",
+    "timestamp_pipeline": "2026-05-14T21:12:43.096833+00:00",
+    "n_paginas": 2,
+    "ruta_local": "docs_descargados\\CO1.NTC.8829497.pdf",
+    "campos_pdf": {
+      "valor_pdf": "64.062.117.216",
+      "numero_proceso_pdf": null,
+      "tipo_proceso_pdf": "Contratación directa",
+      "duracion_pdf": "12 (Año(s))",
+      "fecha_fin_pdf": "30/12/2035",
+      "proveedor_pdf": "¿Permitir visitas al lugar de",
+      "valor_numerico_pdf": 64062117216
+    },
+    "clasificacion": "INCONSISTENTE",
+    "n_inconsistencias": 1,
+    "verificaciones": [
+      {
+        "campo": "valor_contrato",
+        "valor_api": "64,062,117,216",
+        "valor_pdf": "64,062,117,216",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "modalidad_contratacion",
+        "valor_api": "CONTRATACIÓN DIRECTA",
+        "valor_pdf": "CONTRATACIÓN DIRECTA",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "proveedor_adjudicado",
+        "valor_api": "CORPORACIN CRECER EDUCADOS",
+        "valor_pdf": "¿PERMITIR VISITAS AL LUGAR DE",
+        "resultado": "INCONSISTENTE",
+        "detalle": "Proveedor: sim=0% | API='CORPORACIN CRECER EDUCADOS' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+      },
+      {
+        "campo": "duracion_contrato",
+        "valor_api": "12 Año(s)",
+        "valor_pdf": "12 (Año(s))",
+        "resultado": "OK",
+        "detalle": ""
+      },
+      {
+        "campo": "fecha_fin_contrato",
+        "valor_api": "2035-12-30",
+        "valor_pdf": "2035-12-30",
+        "resultado": "OK",
+        "detalle": ""
+      }
+    ],
+    "inconsistencias": [
+      "Proveedor: sim=0% | API='CORPORACIN CRECER EDUCADOS' | PDF='¿PERMITIR VISITAS AL LUGAR DE'"
+    ],
+    "bc_estado": "REGISTRADO",
+    "bc_tx_hash": "0x20f55ff3a96a23e21ea58bc49fbea6f1ee4a74902e97bbfb7404b5ff95c07922",
+    "bc_block_number": 38375064,
+    "bc_block_timestamp": "2026-05-14T21:13:25+00:00",
+    "bc_contract_address": "0xFda33F967F6ed22856ee542910663B180b3Cc79C",
+    "bc_chain_id": 80002,
+    "bc_gas_usado": 137244,
+    "bc_error": "",
+    "error": ""
+  }
+]

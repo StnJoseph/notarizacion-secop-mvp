@@ -11,15 +11,14 @@ import VerificationTable from "@/src/components/VerificationTable";
 import BlockchainInfoPanel from "@/src/components/BlockchainInfoPanel";
 import ComprobanteSummary from "@/src/components/ComprobanteSummary";
 
-type FiltroClasificacion = "Todos" | "CONSISTENTE" | "INCONSISTENTE" | "ADVERTENCIA" | "NO_VERIFICABLE";
+type FiltroClasificacion = "Todos" | "CONSISTENTE" | "INCONSISTENTE" | "ADVERTENCIA";
 
-const FILTROS: FiltroClasificacion[] = ["Todos", "CONSISTENTE", "INCONSISTENTE", "ADVERTENCIA", "NO_VERIFICABLE"];
+const FILTROS: FiltroClasificacion[] = ["Todos", "CONSISTENTE", "INCONSISTENTE", "ADVERTENCIA"];
 
 const COLORES_FILTRO: Record<Exclude<FiltroClasificacion, "Todos">, string> = {
   CONSISTENTE: "bg-emerald-50 text-emerald-700 border-emerald-200",
   INCONSISTENTE: "bg-rose-50 text-rose-700 border-rose-200",
   ADVERTENCIA: "bg-amber-50 text-amber-700 border-amber-200",
-  NO_VERIFICABLE: "bg-slate-50 text-slate-700 border-slate-200",
 };
 
 function BuscarContent() {
